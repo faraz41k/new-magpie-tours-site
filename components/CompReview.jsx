@@ -1,0 +1,39 @@
+import Image from 'next/image'
+import Link from 'next/link'
+import React from 'react'
+
+const CompReview = () => {
+  return (
+    <div className='bg-blue-950  w-full flex items-center justify-evenly gap-2'>
+        <div className='p-2'>
+            <Link href='/'>
+            <Image src='/airbnb.svg' height={100} width={100} alt='logo-imgs'/>
+            </Link>
+            
+        </div>
+
+        <div className='p-2'> 
+            <Link href='/'>
+            <Image src='/instagram-2.svg' height={100} width={100} alt='logo-imgs'/>
+            </Link>
+            
+        </div>
+
+        <div className='p-2'>
+            <Link href='/'>
+            <Image src='/tripadvisor.svg' height={100} width={100} alt='logo-imgs'/>
+            </Link>
+            
+        </div>
+
+        <div className='p-2'>
+            <Link href='/'>
+            <Image src='/instagram-2.svg' height={100} width={100} alt=''/>
+            </Link>
+            
+        </div>
+    </div>
+  )
+}
+
+export default CompReview

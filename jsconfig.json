@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+          "@/components/*": ["components/*"],
+          "@/sanity/*": ["sanity/*"]
+        }
+    },
+    "include": ["next-env.d.js", "**/*.js", "**/*.jsx"]
+  }
+
+  
