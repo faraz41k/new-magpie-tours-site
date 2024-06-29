@@ -79,6 +79,10 @@ const FooterSection = () => {
             <Link  href='/Contact' className="[text-decoration:none] font-poppins relative leading-[24px] text-[14px]  text-[inherit]">
               Contact
             </Link>
+
+            <Link  href='/RefundPolicy' className="[text-decoration:none] font-poppins relative leading-[24px] text-[14px]  text-[inherit]">
+              Refund Policy
+            </Link>
             
           </div>
         </div>
@@ -91,12 +95,14 @@ const FooterSection = () => {
               Booking Policy
             </Link>
 
-            <Link  href='/RefundPolicy' className="[text-decoration:none] font-poppins relative leading-[24px] text-[14px]  text-[inherit]">
-              Refund Policy
-            </Link>
+            
             
             <Link  href='https://visa.nadra.gov.pk/' className="[text-decoration:none] font-poppins relative leading-[24px] text-[14px]  text-[inherit]">
               Visa Pakistan : https://visa.nadra.gov.pk/
+            </Link>
+
+            <Link  href='/FAQs' className="[text-decoration:none] font-poppins relative leading-[24px] text-[14px]  text-[inherit]">
+              FAQs
             </Link>
             
           </div>
