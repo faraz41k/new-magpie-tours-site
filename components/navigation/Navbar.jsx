@@ -18,10 +18,10 @@ import { RxCross2 } from "react-icons/rx";
 
 
 const links = [
-    {
-        title: 'Home',
-        url: '/',
-    },
+    // {
+    //     title: 'Home',
+    //     url: '/',
+    // },
 
     {
         title: 'Landscapes & Traditions',
@@ -266,7 +266,7 @@ const Navbar = () => {
                     links.map((link)=>(
                         link.submenu ? 
                     <div key={link.title} className='list-none '>
-                        <div className='relative flex items-center cursor-pointer justify-evenly no-underline text-[16px]  font-poppins text-gray-900 group px-3 py-2 transition-all group-hover:text-blue-900'>
+                        <div className='relative flex items-center cursor-pointer justify-evenly no-underline text-[14px]  font-poppins text-gray-900 group px-3 py-2 transition-all group-hover:text-blue-900'>
                              {link.title}
                              {link.submenu && <IoIosArrowDown className='rotate-180 transition-all group-hover:rotate-0'/>}
                              {/* dopdown */}
