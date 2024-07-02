@@ -16,7 +16,7 @@ const TopBar = () => {
             <div className='max-container px-10 flex  justify-between items-center '>
                 <div className='flex items-center justify-between text-white font-poppins'>
                         <SiWhatsapp className='h-8'/>
-                        <Link target='_blank' className='no-underline' href='https://web.whatsapp.com/'><p className='text-white font-poppins ml-2 md:text-[12px]'>+92345678890</p></Link>
+                        <Link target='_blank' className='no-underline' href='https://wa.me/03554212624'><p className='text-white font-poppins ml-2 md:text-[12px]'>+92345678890</p></Link>
                         
                 </div>
 

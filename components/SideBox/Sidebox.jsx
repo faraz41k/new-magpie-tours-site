@@ -29,7 +29,7 @@ const Sidebox = ({duration, activity,guide,destination,calender,price}) => {
         </div>
         <div className='md:flex md:gap-2 md:justify-between md:items-center w-full xlg:flex xlg:flex-col xlg:gap-2 md:col-span-5'>
             <Link href='/Contact'>
-            <button className="btn btn-outline text-gray-black px-8 shadow-md font-poppins md:w-full">Enquire</button>
+            <button className="btn btn-outline text-gray-black px-8 shadow-md font-poppins md:w-full w-full">Enquire</button>
             </Link>
             <button className="btn btn-success text-whitesmoke-100 px-8 shadow- font-poppins md:w-full">USD {price} $</button>
         </div>
