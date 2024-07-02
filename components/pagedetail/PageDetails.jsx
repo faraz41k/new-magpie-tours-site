@@ -102,7 +102,10 @@ const PageDetail = ({
                 <h1 className='text-[28px] font-semibold pb-3 font-poppins'>Itinerary At Glance</h1>
                 <div className='list-none'>
                     {Itenary.map((item,ind)=>(
-                        <li  key={ind} className='font-poppins text-[30px] md:text-[20px]'> {item}</li>
+                        <>
+                        <li  key={ind} className='font-poppins text-[30px] md:text-[20px] sm:text-[18px]'> {item}</li>
+                        <br/>
+                        </>
                     ))}
                     
                     
@@ -152,7 +155,7 @@ const PageDetail = ({
             </div>
             
 
-            <div  className='flex items-center justify-center flex-col px-[60px] max-w-6xl '>
+            <div  className='flex items-center justify-start flex-col px-[60px] sm:px-[20px] max-w-6xl '>
                 <div className='font-poppins  text-[30px] font-semibold  py-10 text-center  overflow-hidden'>You May Also Like</div>
                  <CardContainer
                     cardname1={cardname1}
