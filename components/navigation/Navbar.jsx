@@ -379,7 +379,7 @@ function NavItem({link,closeSideMenu} ) {
                             onClick={toggleItems} 
                              href={link.url}
                              className='relative flex flex-col items-start justify-evenly no-underline font-poppins text-gray-900 group px-1 py-2  group-hover:text-blue-900'>
-                             <h5 className='font-poppins text-[28px] flex items-center justify-center  font-thin'>{link.title}
+                             <h5 className='font-poppins text-[20px] flex items-center justify-center  font-thin'>{link.title}
                              {link.submenu && <IoIosArrowDown className={`text-sm transition-all ${itemOpen && "-rotate-180"}`}/>}
                              </h5>
                              
@@ -390,7 +390,7 @@ function NavItem({link,closeSideMenu} ) {
                                             {
                                                 link.submenu.map((subLink)=>(
                                                     <Link onClick={closeSideMenu} key={subLink.title} href={subLink.url} className='hover:bg-slate-100 cursor-pointer flex items-start no-underline pl-6 py-2 pr-8 text-  hover:text-black gap-2' >
-                                                        <span className='whitespace-nowrap text-[20px] pl-3 text-gray-black'><span className='text-teal-700 font-bold'>||</span> {subLink.title}</span>
+                                                        <span className='whitespace-nowrap text-[16px] pl-3 text-gray-black'><span className='text-teal-700 font-bold'>||</span> {subLink.title}</span>
                                                         
                                                     </Link>
                                                 ))
