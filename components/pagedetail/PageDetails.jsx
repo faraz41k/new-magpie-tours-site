@@ -155,7 +155,7 @@ const PageDetail = ({
             </div>
             
 
-            <div  className='flex items-center justify-start flex-col px-[60px] sm:px-[20px] max-w-6xl '>
+            <div  className='flex items-center justify-center flex-col px-[60px] sm:px-[20px] max-w-6xl '>
                 <div className='font-poppins  text-[30px] font-semibold  py-10 text-center  overflow-hidden'>You May Also Like</div>
                  <CardContainer
                     cardname1={cardname1}

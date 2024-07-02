@@ -4,6 +4,7 @@
 import React, { useState } from 'react'
 import {BsChevronCompactLeft, BsChevronCompactRight} from 'react-icons/bs'
 import {RxDotFilled} from 'react-icons/rx'
+import { MdCancel } from "react-icons/md";
 
 
 
@@ -27,10 +28,10 @@ const Modal = ({isVisible, onClose , sliderImages}) => {
     }
 
   return (
-    <div className='fixed inset-0 bg-transparent z-50 md:w-full bg-opacity-20 backdrop-blur-lg flex  justify-center items-center' id='wrapper' onClick={handleClose} > 
-        <div className=' flex flex-col w-screen bg-transparent'>
-           <button onClick={()=>onClose()} className='text-white text-xl bg-transparent border-none cursor-pointer p-4 place-self-end'> X</button>
-            <div className='bg-white  rounded-lg w-full bg-inherit'>
+    <div className='fixed inset-0 bg-transparent  md:w-full bg-opacity-20 backdrop-blur-sm flex  justify-end items-center z-[2000]' id='wrapper' onClick={handleClose} > 
+        <div className=' flex flex-col w-full bg-transparent'>
+           <button onClick={()=>onClose()} className='text-black text-xl bg-transparent border-none cursor-pointer p-4 place-self-end'><MdCancel/></button>
+            <div className='  rounded-lg w-full bg-transparent z-[1000]'>
                 <Slider sliderImages={sliderImages}/>
             </div>
         </div>
@@ -73,7 +74,7 @@ const Slider = ({title, sliderImages}) => {
     <div >
       
       <div className="max-w-[1400px] h-[620px] md:h-[300px] md:w-full  w-full m-auto pt-2 pb-6 px-2 relative group z-100 bg-transparent rounded-lg ">
-       <p className='absolute bottom-[80px] left-[80px] text-33xl text-white font-bold font-poppins  uppercase border-none'>{title}</p>
+       <p className='absolute bottom-[80px] left-[80px] text-33xl text-black font-bold font-poppins  uppercase border-none'>{title}</p>
 
       <div  style={{backgroundImage: `url(${urlFor(sliderImages[index]).url()})`}}  className="w-full h-full rounded-2xl bg-center bg-cover duration-500"></div>
       <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl p-2 bg-black/70 text-white cursor-pointer" >
