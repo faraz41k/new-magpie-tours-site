@@ -174,7 +174,7 @@ const PageDetail = ({
             </div>
 
             <div  className='w-full'>
-                <h3 className='font-poppins text-33xl text-stone-900'>Submit Your Review</h3>
+                <h3 className='font-poppins text-[40px] text-stone-900 pb-4'>Submit Your Review</h3>
                 <Review/>
             </div>
 
