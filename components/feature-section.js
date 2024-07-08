@@ -8,7 +8,7 @@ const FeatureSection =async () => {
   return (
     <div className="self-stretch flex-1 flex flex-col items-center justify-center py-[53px]  gap-[45px] text-center text-21xl text-primary-800 font-body-regular-600">
       <div className="self-stretch flex flex-col items-center justify-center py-0 px-[30px] gap-[24px] md:self-stretch md:w-auto">
-        <div className="self-stretch relative leading-[48px] font-semibold text-gray-600">
+        <div className="self-stretch relative leading-[48px] md:text-[24px]  font-semibold text-gray-600">
           Our Tours Across Pakistan
         </div>
         <div className="self-stretch relative text-xl leading-[20px] text-gray-600">
