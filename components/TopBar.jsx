@@ -22,7 +22,7 @@ const TopBar = () => {
 
                 <div className='flex items-center justify-between text-white font-poppins'>
                         <GrMailOption  className=''/>
-                        <Link target='_blank' className='no-underline' href='https://mail.google.com/'><p className='ml-2 md:text-[12px] no-underline text-white'>magpie@tours.com</p></Link>
+                        <Link target='_blank' className='no-underline' href='https://mail.google.com/'><p className='ml-2 md:text-[12px] no-underline text-white'>info@magpietours.com.pk</p></Link>
                         
                 </div>
 
