@@ -16,7 +16,7 @@ export const metadata = {
 
 
 
-
+// all the data for product..here
   
 const  ProductDetail = async () => {
   const HunzaRetreat =await getHunzaRetreat()
@@ -58,7 +58,7 @@ const  ProductDetail = async () => {
           <PageNav/>
         </div>
 
-        <div className=''>
+        <div >
           <PageDetails 
           overview={data.overview}
           Itenary={data.Itenary}
