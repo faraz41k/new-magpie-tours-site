@@ -129,7 +129,7 @@ export const  getHunzaSkurdu= async ()=> {
             guide,
             calender,
             price,
-            price,
+            
         }`
     )
 }
@@ -158,7 +158,7 @@ export const  getColorsOfNorth= async ()=> {
             guide,
             calender,
             price,
-            price,
+            
         }`
     )
 }
@@ -187,7 +187,7 @@ export const  getHunzaRetreat= async ()=> {
             guide,
             calender,
             price,
-            price,
+            
         }`
     )
 }
@@ -216,7 +216,7 @@ export const  getNorthBlossom= async ()=> {
             guide,
             calender,
             price,
-            price,
+            
         }`
     )
 }
