@@ -11,7 +11,7 @@ const reviewsData = await getReview()
 
 
   return (
-    <div className='w-full  '>
+    <div className='w-full  ' id='#reviews'>
         <Testimonial  reviews = {reviewsData}/>
     </div>
   )

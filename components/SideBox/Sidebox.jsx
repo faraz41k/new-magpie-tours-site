@@ -44,7 +44,7 @@ const Sidebox = ({duration, activity,guide,destination,calender,price}) => {
                 <FaStar className='text-orange-400/100 h-10 w-10'/>
             </div>
 
-            <Link href='/'><h3>Reviews</h3></Link>
+            <Link href='/#reviews' target='_blank'><h3>Reviews</h3></Link>
         </div>
 
         
