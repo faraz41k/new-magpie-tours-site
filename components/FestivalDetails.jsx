@@ -138,7 +138,7 @@ const FestivalDetail = ({
 
             
             <div className='px-[60px] flex flex-col flex-wrap max-w-6xl' id='Itinery'>
-                <h1 className='text-[28px] font-semibold pb-1  font-poppins'>Itinerary At Glance The Joshi Spring Festival</h1>
+                <h1 className='text-[28px] font-semibold pb-1  font-poppins'>Itinerary At Glance The Kalash Chilum Joshi Spring Festival</h1>
                 <h3 className='text-[24px] font-light underline  pb-3 font-poppins'>12-day itinerary: Kalash Chilum Joshi Festival (spring festival, May13th-16th)
                 Fixed departure/joining Dates (May 11th each year, arrival to Islamabad airport)</h3>
                 <div className='list-none'>
