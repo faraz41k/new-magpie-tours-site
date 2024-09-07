@@ -48,8 +48,8 @@ const links = [
             },
 
             {
-                title:'Cities and Mountains',
-                url:'/LsCitiesAndMountains'
+                title:'Alpine Flora Discovery',
+                url:'/LsAlpineFloraDiscovery'
             },
 
             {

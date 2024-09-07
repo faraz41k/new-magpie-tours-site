@@ -6,7 +6,7 @@ import PageNav from '@/components/pagedetail/PageNav'
 
 
 
-import { getCitiesMount, getHunzaRetreat, getKKHSilkRoute, getNorthBlossom } from '@/sanity/sanity/sanity-utils'
+import { getAlpineFloraDiscovery, getHunzaRetreat, getKKHSilkRoute, getNorthBlossom } from '@/sanity/sanity/sanity-utils'
 
 export const metadata = {
   title: 'Cities and Mountains',
@@ -37,9 +37,9 @@ const  ProductDetail = async () => {
   const cardImage3= SilkRouteData.cardimage
   const url3= SilkRouteData.url
 
-  const CitiesMount = await getCitiesMount()
+  const FloraDiscovery = await getAlpineFloraDiscovery()
   
-  const data = CitiesMount[0]
+  const data = FloraDiscovery[0]
   const sliderImages = data.Slider_Images;
   console.log(data);
   

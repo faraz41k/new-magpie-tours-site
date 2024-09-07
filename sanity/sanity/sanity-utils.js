@@ -222,12 +222,12 @@ export const  getNorthBlossom= async ()=> {
 }
 
 
-export const  getCitiesMount= async ()=> {
+export const  getAlpineFloraDiscovery= async ()=> {
 
     
 
     return client.fetch(
-        groq`*[slug.current == "cities-and-mountains" ]{
+        groq`*[slug.current == "alpine-flora-discovery" ]{
             name,
             category,
             slug,

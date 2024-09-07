@@ -6,7 +6,7 @@ import PageNav from '@/components/pagedetail/PageNav'
 
 
 
-import { getCitiesMount, getKKHSilkRoute, getKalashFestivals, getPeshawarNorth } from '@/sanity/sanity/sanity-utils'
+import { getAlpineFloraDiscovery, getKKHSilkRoute, getKalashFestivals, getPeshawarNorth } from '@/sanity/sanity/sanity-utils'
 
 export const metadata = {
   title: 'Peshawar and Northern Journey',
@@ -23,12 +23,12 @@ const  ProductDetail = async () => {
   const cardImage1= KalashFestivalsData.cardimage
   const url1 =KalashFestivalsData.url
 
-  const CitiesMount =await getCitiesMount()
-  const CitiesMountData = CitiesMount[0]
-  const cardName2= CitiesMountData.name
-  const cardDetail2 = CitiesMountData.overview
-  const cardImage2= CitiesMountData.cardimage
-  const url2 =CitiesMountData.url
+  const FloraDiscovery =await getAlpineFloraDiscovery()
+  const floraDiscovery = FloraDiscovery[0]
+  const cardName2= floraDiscovery.name
+  const cardDetail2 = floraDiscovery.overview
+  const cardImage2= floraDiscovery.cardimage
+  const url2 =floraDiscovery.url
 
 
 
