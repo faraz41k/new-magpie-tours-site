@@ -9,7 +9,7 @@ import PageNav from '@/components/pagedetail/PageNav'
 import { getNangaparbatRposhi,getFairyMeadowsShimshal,getNagmaValley,getRushLakePassu } from '@/sanity/sanity/sanity-utils'
 
 export const metadata = {
-  title: 'Nangaparbat &amp; Rakaposhi Basecamps Trek ',
+  title: 'Nangaparbat & Rakaposhi Basecamps Trek ',
   description: "Embark on an epic summer adventure with Magpie Tours, trekking to the base camps of Nanga Parbat and Rakaposhi in Pakistan. Experience breathtaking mountain landscapes, challenging trails, and the thrill of high-altitude trekking. Book your unforgettable trek today!"
 }
 
