@@ -10,7 +10,7 @@ import { getFairyMeadowsShimshal,getNagmaValley,getRushLakePassu,getShishperMead
 
 
 export const metadata = {
-  title: 'Fairy Meadows &amp; Shimshal Valley ',
+  title: 'Fairy Meadows & Shimshal Valley ',
   description: "Experience thrilling jeep rides to Shimshal and Fairy Meadow with Magpie Tours. Explore the last valleys of Pakistan and marvel at the 9th highest mountain in the world. Join us for an unforgettable adventure through breathtaking landscapes. Book your journey today!"
 }
 
