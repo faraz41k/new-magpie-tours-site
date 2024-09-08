@@ -9,7 +9,7 @@ import PageNav from '@/components/pagedetail/PageNav'
 import { getAlpineFloraDiscovery, getHunzaRetreat, getKKHSilkRoute, getNorthBlossom } from '@/sanity/sanity/sanity-utils'
 
 export const metadata = {
-  title: 'Alpine Flora Discovery',
+  title: 'Alpine Flora Discovery.',
   description: "Discover the vibrant Alpine Flora in breathtaking northern mountains of Pakistan with Magpie Tours. Join us for a comprehensive tour that showcases the best of Pakistan. Book your journey today!"
 }
 

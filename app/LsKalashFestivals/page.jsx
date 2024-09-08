@@ -10,7 +10,7 @@ import FestivalDetail from '@/components/FestivalDetails'
 import { getHunzaRetreat, getHunzaSkurdu, getKKHSilkRoute, getKalashFestivals } from '@/sanity/sanity/sanity-utils'
 
 export const metadata = {
-  title: 'Kalash Festivals',
+  title: 'Kalash Festivals  ',
   description: "Experience the vibrant Kalash Festival with Magpie Tours in Pakistan.Immerse yourself in the rich cultural heritage, unique traditions, and stunning landscapes of the Kalash Valley. Join us for an unforgettable cultural adventure. Book your Kalash Festival tour today!"
 }
 
