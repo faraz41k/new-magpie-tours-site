@@ -50,7 +50,7 @@ const About = () => {
             chance for visitors to share a meal or tea with locals and listen to their real life stories in their
             homes, just like you are living with the community. For Magpie Tours, travel is a chance to
             experience life afresh, through all the different stories and possibilities you encounter along the
-            way.
+            way..
             </span>
           </p>
         </div>
