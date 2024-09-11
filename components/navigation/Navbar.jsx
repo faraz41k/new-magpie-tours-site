@@ -67,7 +67,7 @@ const links = [
                 url:'/LsPeshawar&North'
             },
             {
-                title:'Colors Of North',
+                title:'Colors Of The North',
                 url:'/LsColorsOfNorth'
             },
         ],
