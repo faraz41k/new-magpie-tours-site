@@ -34,17 +34,17 @@ const BussinesCardSection =async ({
             <div className="self-stretch flex flex-row items-center justify-center gap-[26px] lg:flex-row md:flex-col">
               <BussinesCard
                 cityName={name1}
-                propBackgroundImage="url('/card-1@3x.png')"
+                propBackgroundImage="url('/bar-ter.jpg')"
                 href={`/${href1}`}
               />
               <BussinesCard
                 cityName={name2}
-                propBackgroundImage="url('/card-1@3x.png')"
+                propBackgroundImage="url('/shopdin.jpg')"
                 href={`/${href2}`}
               />
               <BussinesCard
                 cityName={name3}
-                propBackgroundImage="url('/card-1@3x.png')"
+                propBackgroundImage="url('/deosai.jpg')"
                 href={`/${href3}`}
               />
             </div>
