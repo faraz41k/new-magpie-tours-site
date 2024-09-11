@@ -9,9 +9,7 @@ const LatestTours = () => {
             Popular Tours
           </div>
           <div className="self-stretch relative text-xl leading-[28px] text-lightslategray">
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia curae; Proin sodales ultrices nulla blandit
-            volutpat.
+            
           </div>
         </div>
         <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[40px] text-center text-base text-gray-white">
