@@ -139,7 +139,7 @@ export const  getColorsOfNorth= async ()=> {
     
 
     return client.fetch(
-        groq`*[slug.current == "colors-of-north" ]{
+        groq`*[slug.current == "colors-of-the-north" ]{
             name,
             category,
             slug,
