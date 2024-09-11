@@ -11,7 +11,7 @@ import { getHunzaSkurdu,getHunzaRetreat, getNorthBlossom,getKKHSilkRoute } from 
 
 export const metadata = {
   title: 'Ultimate Skardu & Hunza',
-  description: "Discover the ultimate Skardu and Hunza sightseeing tour with Magpie Tours Pakistan. Experience breathtaking landscapes, rich cultural heritage, and unforgettable adventures. Join travelers from around the globe and explore the stunning beauty of Pakistans most iconic regions. Book your tour today!"
+  description: "Discover the ultimate Skardu and Hunza sightseeing tour with Magpie Tours Pakistan. Experience breathtaking landscapes, rich cultural heritage, and unforgettable adventures. Join travelers from around the globe and explore the stunning beauty of Pakistans most iconic regions. Book your tour today..!"
 }
 
 
