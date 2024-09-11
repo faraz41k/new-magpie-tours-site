@@ -12,8 +12,8 @@ const page = () => {
             <div className='border-b-2 border-black'></div>
           </div>
           <div className='flex md:flex-col'>
-          <Card/>
-          <Card/>  
+          {/* <Card/>
+          <Card/>   */}
           </div>
           
         </div>
