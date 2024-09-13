@@ -9,7 +9,7 @@ import PageNav from '@/components/pagedetail/PageNav'
 import { getExpKoranKoh, getExpNangaParbat, getExpSangemarmar, getMuchuchishh } from '@/sanity/sanity/sanity-utils'
 
 export const metadata = {
-  title: 'Koran Koh Climbing Expedition',
+  title: 'Koran Koh Climbing Expedition ..',
   description: "Join Magpie Tours for a Koran Koh climbing expedition.Scale this impressive peak with experienced guides and comprehensive support. Book your unforgettable adventure today!"
    
 }
