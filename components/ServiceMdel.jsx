@@ -9,7 +9,7 @@ import { AiOutlineSafety } from "react-icons/ai";
 
 const ServiceMdel = () => {
   return (
-    <div className='w-full bg-gray-300/95 md:h-full py-8 h-[500px] gap-4 px-8 flex flex-col items-center justify-center'>
+    <div className='w-full bg-gray-300/95 md:h-full py-6 h-[500px] gap-4 px-8 flex flex-col items-center justify-center'>
         
         <div className='flex items-center justify-around gap-8 md:flex-col'>
             <div className='flex flex-col gap-4  text-center  px-6  py-4   items-center justify-center'>

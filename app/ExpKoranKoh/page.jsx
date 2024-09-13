@@ -15,7 +15,7 @@ export const metadata = {
 }
 
 
-
+ 
 
 const  ProductDetail = async () => {
   const RushLakePassu =await getExpNangaParbat()

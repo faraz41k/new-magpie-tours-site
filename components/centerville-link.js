@@ -26,7 +26,7 @@ const CentervilleLink = ({
       style={card11Style }
     >
       <div className="my-0 mx-[!important] absolute top-[16px] left-[16px] flex flex-col items-start justify-start gap-[11px] z-[0]">
-        <div className="relative leading-[32px] font-semibold">{cityName}</div>
+        <div className="relative leading-[32px] font-semibold backdrop-blur-sm bg-whitesmoke-200/20 px-2 py-1">{cityName}</div>
         <div className="relative text-base leading-[24px] text-center ">
           
         </div>
