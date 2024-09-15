@@ -94,7 +94,7 @@ const Testimonial =  ({reviews}) => {
                             </div>
                         </div>
 
-                        <div className='flex gap-2 justify-end mb-6 absolute bottom-4 right-4'>
+                        <div className='flex gap-2 justify-end mb-6 absolute bottom-4 right-6'>
                             <div onClick={previous} className='bg-black p-2  hover:bg-slate-400  cursor-pointer'>
                                  <IoIosArrowBack className='text-white'/>
                             </div>
