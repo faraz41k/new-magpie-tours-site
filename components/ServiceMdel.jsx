@@ -15,7 +15,7 @@ const ServiceMdel = () => {
             <div className='flex flex-col gap-4  text-center  px-6  py-4   items-center justify-center'>
                <div className=' text-[60px]'><GrUserExpert /></div>
                <h3 className='text-[20px] font-poppins underline'>Expert Team</h3> 
-               <p className='font-poppins text-[18px]'>Guiding your journey every step of the way</p>
+               <p className='font-poppins text-[18px]'>Guiding your journey every step of the way.</p>
             </div>
             <div className='flex flex-col gap-4  text-center  px-6  py-4    items-center justify-center'>
                <div className=' text-[60px]'><AiOutlineTeam /></div>
