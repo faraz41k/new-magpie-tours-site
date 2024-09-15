@@ -27,7 +27,7 @@ const CompReview = () => {
         </div>
 
         <div className='p-2'>
-            <Link href='/'>
+            <Link href='/https://www.instagram.com/magpietourspakistan?igsh=MWc0bzcxNWhqOGx3Nw%3D%3D&utm_source=qr'>
             <Image src='/instagram-2.svg' height={100} width={100} alt=''/>
             </Link>
             
