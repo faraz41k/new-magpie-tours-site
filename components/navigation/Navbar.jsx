@@ -272,7 +272,7 @@ const Navbar = () => {
                              {/* dopdown */}
                             {
                                 link.submenu && (
-                                    <h3 className='border-gray-400 font-medium font-poppins absolute hover:z-[200] w-fit right-0 top-10 hidden bg-gray-black  flex-col gap-5 rounded-lg shadow-md transition-all group-hover:flex py-5'>
+                                    <h4 className='border-gray-400 font-medium font-poppins  absolute hover:z-[200] w-fit right-0 top-10 hidden bg-gray-black  flex-col gap-3 rounded-lg shadow-md transition-all group-hover:flex py-5'>
                                             {
                                                 link.submenu.map((subLink)=>(
                                                     <Link key={subLink.title} href={subLink.url} className='hover:bg-blue-400 cursor-pointer  flex items-start no-underline pl-6 py-2 pr-8 text-black  hover:text-black gap-2' >
@@ -282,7 +282,7 @@ const Navbar = () => {
                                                 ))
                                             }
                                             
-                                    </h3>
+                                    </h4>
                                 )
                             }
                             {/* dropdown */}

@@ -22,7 +22,7 @@ const PageHero = ({name ,sliderImages,  banner}) => {
   const [showModal, setShowModal] = useState(false)
   return (
     <>
-      <div className="hero min-h-[550px] w-full bg-cover bg-center relative" style={{backgroundImage: `url(${urlFor(banner).url()})`}}>
+      <div className="hero min-h-[550px] sm:h-[350px] w-full bg-cover bg-center relative self-stretch " style={{backgroundImage: `url(${urlFor(banner).fit('clip').url()})`}}>
         <div className="hero-overlay bg-opacity-30 font-poppins"></div>
           <div className="hero-content text-center text-neutral-content">
               <div className="max-w-md text-center">
