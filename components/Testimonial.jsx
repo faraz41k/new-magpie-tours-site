@@ -72,24 +72,24 @@ const Testimonial =  ({reviews}) => {
         {/* <div className='w-1/2 border-b-4 border-solid border-orange-600'/> */}
         </div>
 
-    <section className=' w-full mx-auto flex items-center bg-cover bg-center justify-center h-[70vh] my-auto bg-blue-950  py-10 px-12 backdrop-blur-sm bg-whitesmoke-200/20' style={{backgroundImage: 'url(/landscapes.JPG)'}}>
+    <section className=' w-full mx-auto flex items-center bg-cover bg-center justify-center h-[60vh] my-auto   py-10 px-12 backdrop-blur-sm bg-whitesmoke-200/20' style={{backgroundImage: 'url(/reviewB.JPG)'}}>
             <div className='max-w-[1300px] mx-6'>  
             {reviews.map((review,index)=>
                 index === current && 
                 <div key={index} className=''>
 
                        <div className='relative pt-14 px-4 '>
-                            <h2 className='text-[18px] text-white/90 font-poppins font-light mx-4'>{review.remarks}</h2>
+                            <h2 className='text-[18px] text-white/90 font-poppins font-light mx-4 backdrop-blur-sm bg-whitesmoke-200/20'>{review.remarks}</h2>
                                 <FaQuoteLeft className='w-9 h-9 font-bold absolute left-0 top-0 text-orange-100/30'/>
                                 <FaQuoteRight className='w-9 h-9 font-bold absolute left-[200px] top-[100px] text-orange-100/30'/>
                         </div>
 
                        
                         <div className='flex gap-8 py-5 items-center justify-center md:justify-start'>
-                            <img className='border-2 border-orange-400 p-2 rounded-full object-center object-cover' src={urlFor(review.Userimage).width(200).url()} height={150} width={150} alt='img' />
+                            <img className='border-2 border-orange-400 p-2 rounded-full object-center object-cover' src={urlFor(review.Userimage).width(200).url()} height={130} width={130} alt='img' />
                             <div className=''>
-                                <p className='text-white/90 py-1 font-bold text-3xl'>{review.user_name}</p>
-                                <p className='text-gray-300/90 py-1 font-poppins'>{review.country}</p>
+                                <p className='text-white/90 py-1 font-bold text-3xl backdrop-blur-sm bg-whitesmoke-200/20'>{review.user_name}</p>
+                                <p className='text-gray-300/90 py-1 font-poppins backdrop-blur-sm bg-whitesmoke-200/20'>{review.country}</p>
                                 
                             </div>
                         </div>

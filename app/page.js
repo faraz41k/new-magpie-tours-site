@@ -31,10 +31,10 @@ export default async function  Home() {
         
         <Hero  />
         <FeatureSection />
-        <ServiceMdel/>
         <TestimonialContainer/>
-        <CompReview/>
         <LatestTours />
+        <CompReview/>
+        <ServiceMdel/>
         
       </div>
   )
