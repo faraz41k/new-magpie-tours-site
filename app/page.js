@@ -32,8 +32,8 @@ export default async function  Home() {
         <Hero  />
         <FeatureSection />
         <TestimonialContainer/>
-        <LatestTours />
         <CompReview/>
+        <LatestTours />
         <ServiceMdel/>
         
       </div>

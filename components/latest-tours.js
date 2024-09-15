@@ -20,9 +20,9 @@ const LatestTours = () => {
         </div>
       </div>
       <button className="cursor-pointer [border:none] py-3 px-6 bg-primary-500 rounded flex flex-row items-start justify-start hover:bg-royalblue sm:max-w-full">
-        <div className="relative text-base leading-[24px] font-medium font-body-regular-600 text-gray-white text-center">
+        {/* <div className="relative text-base leading-[24px] font-medium font-body-regular-600 text-gray-white text-center">
           Load more listing
-        </div>
+        </div> */}
       </button>
     </div>
   );
