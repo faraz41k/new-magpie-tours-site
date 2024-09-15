@@ -14,7 +14,7 @@ const CompReview = () => {
 
         <div className='p-2'> 
             <Link href='/'>
-            <Image src='/instagram-2.svg' height={100} width={100} alt='logo-imgs'/>
+            <Image src='/trustpilot.svg' height={100} width={100} alt='logo-imgs'/>
             </Link>
             
         </div>
