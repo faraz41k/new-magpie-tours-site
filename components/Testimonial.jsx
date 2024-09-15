@@ -68,7 +68,7 @@ const Testimonial =  ({reviews}) => {
   return (
 <div className='w-full py-6'>
     <div className='py-4 font-poppins text-33xl text-center flex flex-col justify-center items-center font-semibold'>
-        Reviews
+        
         {/* <div className='w-1/2 border-b-4 border-solid border-orange-600'/> */}
         </div>
 
