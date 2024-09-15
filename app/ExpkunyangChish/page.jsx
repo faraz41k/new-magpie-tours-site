@@ -10,7 +10,7 @@ import { getExpBroeadPeak, getExpKoranKoh, getExpKunyang, getExpSangemarmar } fr
 
 export const metadata = {
   title: 'Kunyang Chishh Climbing Expeditionn',
-  description: "Embark on a Kunyang Chhish climbing expedition with Magpie Tours. Conquer this majestic peak with expert guides, exceptional support, and stunning ...."
+  description: "Embark on a Kunyang Chhish climbing expedition with Magpie Tours. Conquer this majestic peak with expert guides, exceptional support, and stunning .......... "
    
    
 }
