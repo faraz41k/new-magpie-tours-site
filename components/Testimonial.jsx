@@ -72,13 +72,13 @@ const Testimonial =  ({reviews}) => {
         {/* <div className='w-1/2 border-b-4 border-solid border-orange-600'/> */}
         </div>
 
-    <section className=' w-full mx-auto flex items-center justify-center h-[70vh] my-auto bg-blue-950  py-10 px-12 backdrop-blur-sm bg-whitesmoke-200/20' style={{backgroundImage: 'url(/landscapes.JPG)'}}>
+    <section className=' w-full mx-auto flex items-center bg-cover bg-center justify-center h-[70vh] my-auto bg-blue-950  py-10 px-12 backdrop-blur-sm bg-whitesmoke-200/20' style={{backgroundImage: 'url(/landscapes.JPG)'}}>
             <div className='max-w-[1300px] '>  
             {reviews.map((review,index)=>
                 index === current && 
                 <div key={index} className=''>
 
-                       <div className='relative pt-16'>
+                       <div className='relative pt-14 px-4 '>
                             <h2 className='text-[24px] text-white/90 font-poppins font-light'>{review.remarks}</h2>
                                 <FaQuoteLeft className='w-9 h-9 font-bold absolute left-0 top-0 text-orange-100/30'/>
                                 <FaQuoteRight className='w-9 h-9 font-bold absolute left-[200px] top-[100px] text-orange-100/30'/>
