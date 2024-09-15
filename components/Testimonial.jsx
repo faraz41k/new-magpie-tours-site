@@ -89,7 +89,7 @@ const Testimonial =  ({reviews}) => {
                             <img className='border-2 border-orange-400 p-2 rounded-full object-center object-cover' src={urlFor(review.Userimage).width(200).url()} height={130} width={130} alt='img' />
                             <div className=''>
                                 <p className='text-white/90 py-1 font-bold text-3xl backdrop-blur-sm bg-whitesmoke-200/20'>{review.user_name}</p>
-                                <p className='text-gray-300/90 py-1 font-poppins backdrop-blur-sm bg-whitesmoke-200/20'>{review.country}</p>
+                                <p className='text-gray-300/90 py-1 font-poppins '>{review.country}</p>
                                 
                             </div>
                         </div>
