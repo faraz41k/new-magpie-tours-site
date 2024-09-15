@@ -79,14 +79,14 @@ const Testimonial =  ({reviews}) => {
                 <div key={index} className=''>
 
                        <div className='relative pt-14 px-4 '>
-                            <h2 className='text-[18px] text-white/90 font-poppins font-light mx-4 backdrop-blur-sm bg-whitesmoke-200/20 p-2 rounded-lg'>{review.remarks}</h2>
+                            <h2 className='text-[18px] text-white/90 font-poppins font-light md:mx-6 md:text-[14px] mx-4 backdrop-blur-sm bg-whitesmoke-200/20 p-2 rounded-lg'>{review.remarks}</h2>
                                 <FaQuoteLeft className='w-9 h-9 font-bold absolute left-0 top-0 text-orange-100/30'/>
                                 <FaQuoteRight className='w-9 h-9 font-bold absolute left-[200px] top-[100px] text-orange-100/30'/>
                         </div>
 
                        
-                        <div className='flex gap-8 py-5 items-center justify-center md:justify-start'>
-                            <img className='border-2 border-orange-400 p-2 rounded-full object-center object-cover' src={urlFor(review.Userimage).width(200).url()} height={130} width={130} alt='img' />
+                        <div className='flex gap-8 py-5 items-center justify-center md:justify-center'>
+                            <img className='border-2 border-orange-400 p-2 rounded-full object-center object-cover' src={urlFor(review.Userimage).width(200).url()} height={100} width={100} alt='img' />
                             <div className=''>
                                 <p className='text-gray-black py-1 font-bold text-3xl '>{review.user_name}</p>
                                 <p className='text-gray-700 py-1 font-poppins '>{review.country}</p>
@@ -94,7 +94,7 @@ const Testimonial =  ({reviews}) => {
                             </div>
                         </div>
 
-                        <div className='flex gap-2 justify-end mb-6'>
+                        <div className='flex gap-2 justify-end mb-6 absolute bottom-4 right-4'>
                             <div onClick={previous} className='bg-black p-2  hover:bg-slate-400  cursor-pointer'>
                                  <IoIosArrowBack className='text-white'/>
                             </div>
