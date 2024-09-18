@@ -17,7 +17,7 @@ const Retreats = async ()=> {
   
   const YogaRetreats =await getYogaRetreats()
   const p2 = YogaRetreats[0]
-  const name2 = p2.name
+  const name2 = p2.name  
   const href2 =p2.url
 
   
@@ -55,6 +55,11 @@ const Retreats = async ()=> {
   href3='#'
   href4='#'
   href5='#'
+  img1='/card-1@3x.png'
+  img2='/card-1@3x.png'
+  img3='/card-1@3x.png'
+  img4='/card-1@3x.png'
+  img5='/card-1@3x.png'
    
    />   
     </div>

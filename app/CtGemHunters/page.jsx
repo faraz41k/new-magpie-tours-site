@@ -14,7 +14,7 @@ const GemStoneSafari =await getGemStoneSafari()
 const p1 = GemStoneSafari[0]
 const name1 = p1.name
 const href1 =p1.url
-
+  
 const GemStoneTours =await getGemStoneTours()
 const p2 = GemStoneTours[0]
 const name2 = p2.name
@@ -67,8 +67,11 @@ const href4 =p4.url
   href3={href3}
   href4={href4}
   href5='#'
-  
-  
+  img1='/card-1@3x.png'
+  img2='/card-1@3x.png'
+  img3='/card-1@3x.png'
+  img4='/card-1@3x.png'
+  img5='/card-1@3x.png'
   
   />   
     </div>

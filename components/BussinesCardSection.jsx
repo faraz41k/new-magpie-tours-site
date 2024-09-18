@@ -13,7 +13,13 @@ const BussinesCardSection =async ({
   href2,
   href3,
   href4,
-  href5
+  href5,
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  
 
 }) => {
 
@@ -34,29 +40,29 @@ const BussinesCardSection =async ({
             <div className="self-stretch flex flex-row items-center justify-center gap-[26px] lg:flex-row md:flex-col">
               <BussinesCard
                 cityName={name1}
-                propBackgroundImage="url('/bar-ter.jpg')"
+                propBackgroundImage={`url(${img1})`}
                 href={`/${href1}`}
               />
               <BussinesCard
                 cityName={name2}
-                propBackgroundImage="url('/shopdin.jpg')"
+                propBackgroundImage={`url(${img2})`}
                 href={`/${href2}`}
               />
               <BussinesCard
                 cityName={name3}
-                propBackgroundImage="url('/deosai.jpg')"
+                propBackgroundImage={`url(${img3})`}
                 href={`/${href3}`}
               />
             </div>
             <div className="self-stretch flex flex-row items-start justify-center gap-[24px] lg:flex-row md:flex-col">
             <BussinesCard
                 cityName={name4}
-                propBackgroundImage="url('/card-1@3x.png')"
+                propBackgroundImage={`url(${img4})`}
                 href={`/${href4}`}
               />
               <BussinesCard
                 cityName={name5}
-                propBackgroundImage="url('/card-1@3x.png')"
+                propBackgroundImage={`url(${img5})`}
                 href={`/${href5}`}
               />
             </div>

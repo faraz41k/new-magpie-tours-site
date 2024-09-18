@@ -40,7 +40,7 @@ const FeatureSection =async () => {
           </div>
           <div className="self-stretch flex flex-row items-start justify-center gap-[24px] lg:flex-row md:flex-col">
             <CentervilleLink
-              cityName="LandScape"
+              cityName="Landscapes"
               propBackgroundImage="url('/landscapes.JPG')"
               href='/Alllandscape'
               propPadding="10px"

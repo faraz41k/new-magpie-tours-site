@@ -76,7 +76,7 @@ const links = [
     
 
     {
-        title: 'Ancient & UNESCO Heritage',
+        title: 'UNESCO Heritage',
         url: '#',
         submenu:[
             {

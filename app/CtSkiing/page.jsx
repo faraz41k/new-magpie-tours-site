@@ -22,13 +22,13 @@ const Skiing = async ()=> {
 
   const DeosaiBar =await getDeosaiBar()
   const p3 = DeosaiBar[0]
-  const name3 = p3.name
+  const name3 = p3.name 
   const href3 =p3.url
   
   const CustomSki =await getCustomSki()
   const p4 = CustomSki[0]
   const name4 = p4.name
-  const href4 =p4.url
+  const href4 =p4.url  
 
   
   return (
@@ -65,6 +65,11 @@ const Skiing = async ()=> {
   href3={href3}
   href4={href4}
   href5='#'
+  img1='/bar-ter.jpg'
+  img2='/shopdin.jpg'
+  img3='/deosai.jpg'
+  img4='/card-1@3x.png'
+  img5='/card-1@3x.png'
     />   
     </div>
   );
