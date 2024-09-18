@@ -231,6 +231,10 @@ const links = [
         ]
     },
 
+    {
+            title: 'partnerships',
+            url: '/Ctpartners',
+        },
     
 
 ]
