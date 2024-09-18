@@ -232,8 +232,8 @@ const links = [
     },
 
     {
-            title: 'partnerships',
-            url: '/Ctpartners',
+            title: 'Partnerships',
+            url: '/CtPartners',
         },
     
 
