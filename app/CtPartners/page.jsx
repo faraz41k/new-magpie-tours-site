@@ -1,6 +1,6 @@
 import BussinesCardSection from "@/components/BussinesCardSection";
 import LinkCardForm from "@/components/link-card-form";
-import { getCustomSki, getDeosaiBar, getGemStoneSafari, getGemStoneTours, getYogaRetreats, getCorporateRetreats } from "../../sanity/sanity/sanity-utils";
+import { getPeshawarEilNordPakistan, getAvventuraNelNordPakistan, getKalashFestivalPakistan } from "../../sanity/sanity/sanity-utils";
 
 
 
@@ -10,23 +10,23 @@ import { getCustomSki, getDeosaiBar, getGemStoneSafari, getGemStoneTours, getYog
 const Partnerships = async ()=> {
  
 
-const GemStoneSafari =await getGemStoneSafari()
-const p1 = GemStoneSafari[0]
+const PeshawarEilNordPakistan =await getPeshawarEilNordPakistan()
+const p1 = PeshawarEilNordPakistan[0]
 const name1 = p1.name
 const href1 =p1.url
   
-const GemStoneTours =await getGemStoneTours()
-const p2 = GemStoneTours[0]
+const AvventuraNelNordPakistan =await getAvventuraNelNordPakistan()
+const p2 = AvventuraNelNordPakistan[0]
 const name2 = p2.name
 const href2 =p2.url
 
-const DeosaiBar =await getCorporateRetreats()
-const p3 = DeosaiBar[0]
+const KalashFestivalPakistan =await getKalashFestivalPakistan()
+const p3 = KalashFestivalPakistan[0]
 const name3 = p3.name
 const href3 =p3.url
   
-const CustomSki =await getYogaRetreats()
-const p4 = CustomSki[0]
+const AventuraNelNordPakistan =await getAvventuraNelNordPakistan()
+const p4 = AventuraNelNordPakistan[0]
 const name4 = p4.name
 const href4 =p4.url
 
@@ -42,9 +42,9 @@ const href4 =p4.url
           <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md ">
               <div className="min-w-[400px] mx-auto  flex flex-col justify-center items-center py-16  text-center">
-                <h3 className="font-poppins font-bold text-33xl">Gem Hunters</h3>
+                <h3 className="font-poppins font-bold text-33xl">Partnerships</h3>
                 
-                <p className="font-poppins text-[20px]">Across Pakistan</p>
+                <p className="font-poppins text-[20px]"></p>
               </div>
                 
             </div>

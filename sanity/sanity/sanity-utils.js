@@ -1400,3 +1400,122 @@ export const  getYogaRetreats= async ()=> {
         }`
     )
 }
+
+// partnerships
+
+
+export const  getPartnerships= async ()=> {
+
+    
+
+    return client.fetch(
+        groq`*[slug.current == "yoga-retreats" ]{
+            name,
+            category,
+            slug,
+            overview,
+            Itenary,
+            Services_Included,
+            Not_Included,
+            Notes,
+            Slider_Images,
+            cardimage,
+            url,
+            map,
+            duration,
+            activities,
+            destination,
+            guide,
+            calender,
+            price,
+        }`
+    )
+}
+
+
+export const  getPeshawarEilNordPakistan= async ()=> {
+
+    
+
+    return client.fetch(
+        groq`*[slug.current == "peshawar-e-il-nord-pakistan" ]{
+            name,
+            category,
+            slug,
+            overview,
+            Itenary,
+            Services_Included,
+            Not_Included,
+            Notes,
+            Slider_Images,
+            cardimage,
+            url,
+            map,
+            duration,
+            activities,
+            destination,
+            guide,
+            calender,
+            price,
+        }`
+    )
+}
+
+export const  getAvventuraNelNordPakistan= async ()=> {
+
+    
+ 
+    return client.fetch(
+        groq`*[slug.current == "avventura-nel-nord-pakistan" ]{
+            name,
+            category,
+            slug,
+            overview,
+            Itenary,
+            Services_Included,
+            Not_Included,
+            Notes,
+            Slider_Images,
+            cardimage,
+            url,
+            map,
+            duration,
+            activities,
+            destination,
+            guide,
+            calender,
+            price,
+        }`
+    )
+}
+
+
+
+
+export const  getKalashFestivalPakistan= async ()=> {
+
+    
+
+    return client.fetch(
+        groq`*[slug.current == "kalash-festival-pakistan" ]{
+            name,
+            category,
+            slug,
+            overview,
+            Itenary,
+            Services_Included,
+            Not_Included,
+            Notes,
+            Slider_Images,
+            cardimage,
+            url,
+            map,
+            duration,
+            activities,
+            destination,
+            guide,
+            calender,
+            price,
+        }`
+    )
+}
