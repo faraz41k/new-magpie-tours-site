@@ -54,7 +54,7 @@ const href4 =p4.url
 
       {/* mid */}
   <BussinesCardSection 
-  title='Explore Gem Hunters Here'
+  title='Explore the partnerships we offer'
   desc='Choose you travel style.'
   name1={name1}
   name2={name2}
