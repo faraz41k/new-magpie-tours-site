@@ -7,6 +7,8 @@ import { getPeshawarEilNordPakistan, getAvventuraNelNordPakistan, getKalashFesti
 
 
 
+
+
 const Partnerships = async ()=> {
  
 
@@ -14,16 +16,19 @@ const PeshawarEilNordPakistan =await getPeshawarEilNordPakistan()
 const p1 = PeshawarEilNordPakistan[0]
 const name1 = p1.name
 const href1 =p1.url
+const cardImage1=p1.cardimage
   
 const AvventuraNelNordPakistan =await getAvventuraNelNordPakistan()
 const p2 = AvventuraNelNordPakistan[0]
 const name2 = p2.name
 const href2 =p2.url
+const cardImage2=p1.cardimage
 
 const KalashFestivalPakistan =await getKalashFestivalPakistan()
 const p3 = KalashFestivalPakistan[0]
 const name3 = p3.name
 const href3 =p3.url
+const cardImage3=p1.cardimage
   
 const AventuraNelNordPakistan =await getAvventuraNelNordPakistan()
 const p4 = AventuraNelNordPakistan[0]
@@ -37,7 +42,7 @@ const href4 =p4.url
     <div className=' self-stretch  flex flex-col mb-6'>
       {/* hero */}
       <div className=" ">
-      <div className="hero min-h-[550px] w-full bg-cover bg-center relative" style={{backgroundImage: 'url(/trek.jpg)'}}>
+      <div className="hero min-h-[550px] w-full bg-cover bg-center relative" style={{backgroundImage: 'url(/pBanner.JPG)'}}>
         <div className="hero-overlay  bg-opacity-60 py-5"></div>
           <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md ">
@@ -67,8 +72,8 @@ const href4 =p4.url
   href3={href3}
   href4={href4}
   href5='#'
-  img1='/card-1@3x.png'
-  img2='/card-1@3x.png'
+  img1='/ '
+  img2='/pBanner.JPG'
   img3='/card-1@3x.png'
   img4='/card-1@3x.png'
   img5='/card-1@3x.png'
