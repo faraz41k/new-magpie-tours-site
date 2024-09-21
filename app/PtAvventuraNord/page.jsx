@@ -38,7 +38,7 @@ const  ProductDetail = async () => {
   
 
   
-  const PeshawarEilNordPakistan = await getPeshawarEilNordPakistan()
+  const PeshawarEilNordPakistan = await getAvventuraNelNordPakistan()
   const data = PeshawarEilNordPakistan[0]
   const sliderImages = data.Slider_Images;
   
