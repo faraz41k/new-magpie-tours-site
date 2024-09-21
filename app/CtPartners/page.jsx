@@ -44,7 +44,7 @@ const href4 =p4.url
               <div className="min-w-[400px] mx-auto  flex flex-col justify-center items-center py-16  text-center">
                 <h3 className="font-poppins font-bold text-33xl">Partnerships</h3>
                 
-                <p className="font-poppins text-[20px]"></p>
+                <p className="font-poppins text-[20px]">.</p>
               </div>
                 
             </div>
