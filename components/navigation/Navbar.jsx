@@ -234,7 +234,22 @@ const links = [
     {
             title: 'Partnerships',
             url: '/CtPartners',
-            
+            submenu:[
+                {
+                    title:'Avventura nel nord PAKISTAN',
+                    url:'/PtAvventuraNord'
+                },
+    
+                {
+                    title:'Peshawar e il nord PAKISTAN',
+                    url:'/PtPeshawarNord'
+                },
+    
+                {
+                    title:'Kalash festival PAKISTAN',
+                    url:'/PtKalashFestival'
+                },
+            ]
     }
 
 ]
@@ -293,7 +308,7 @@ const Navbar = () => {
                             
                         </div>
                     </div>
-                    : <Link key={link.title} className='list-none text-[14px] no-underline  font-poppins text-gray-900' href={link.url}>{link.title}</Link>
+                    : <Link key={link.title} className='list-none text-[14px] no-underline  font-poppins  text-gray-900' href={link.url} >{link.title}</Link>
                     ))
                 }
                     
