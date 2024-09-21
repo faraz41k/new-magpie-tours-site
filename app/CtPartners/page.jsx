@@ -72,9 +72,9 @@ const href4 =p4.url
   href3={href3}
   href4={href4}
   href5='#'
-  img1='/ '
-  img2='/pBanner.JPG'
-  img3='/card-1@3x.png'
+  img1='/card-1@3x.png '
+  img2='/card-1@3x.png'
+  img3='/pBanner.JPG'
   img4='/card-1@3x.png'
   img5='/card-1@3x.png'
   
