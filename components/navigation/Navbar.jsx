@@ -234,8 +234,8 @@ const links = [
     {
             title: 'Partnerships',
             url: '/CtPartners',
-        },
-    
+            
+    }
 
 ]
 
