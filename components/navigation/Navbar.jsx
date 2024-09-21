@@ -293,7 +293,7 @@ const Navbar = () => {
                             
                         </div>
                     </div>
-                    : <Link key={link.title} className='list-none text-[16px] no-underline  font-poppins text-gray-900' href={link.url}>{link.title}</Link>
+                    : <Link key={link.title} className='list-none text-[14px] no-underline  font-poppins text-gray-900' href={link.url}>{link.title}</Link>
                     ))
                 }
                     
