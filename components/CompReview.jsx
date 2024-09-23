@@ -4,7 +4,7 @@ import React from 'react'
 
 const CompReview = () => {
   return (
-    <div className='bg-blue-950  w-full flex items-center justify-evenly gap-2'>
+    <div className='bg-black  w-full flex items-center justify-evenly gap-2'>
         <div className='p-2 w-1/4'>
             <Link href='/'>
             <Image src='/trustpilot.svg' height={100} width={100} alt='logo-imgs'/>

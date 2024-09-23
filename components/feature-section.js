@@ -12,7 +12,7 @@ const FeatureSection =async () => {
           Our Tours Across Pakistan
         </div>
         <div className="self-stretch relative text-xl leading-[20px] text-gray-600">
-          Choose you travel style.
+          Choose your travel style.
         </div>
       </div>
       <div className="self-stretch flex-1 flex flex-row flex-wrap items-center justify-center py-0 px-1 box-border max-w-[100%] text-left text-5xl text-gray-white">
