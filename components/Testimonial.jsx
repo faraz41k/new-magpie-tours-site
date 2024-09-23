@@ -72,7 +72,7 @@ const Testimonial =  ({reviews}) => {
         {/* <div className='w-1/2 border-b-4 border-solid border-orange-600'/> */}
         </div>
 
-    <section className=' w-full mx-auto flex items-center bg-cover bg-center justify-center h-[60vh] my-auto   py-10 px-12 backdrop-blur-sm bg-whitesmoke-200/20' style={{backgroundImage: 'url(/reviewB.JPG)'}}>
+    <section className=' w-full mx-auto flex items-center bg-cover bg-bottom justify-center h-[60vh] my-auto   py-10 px-12 backdrop-blur-sm bg-whitesmoke-200/20' style={{backgroundImage: 'url(/reviewB.JPG)'}}>
             <div className='max-w-[1300px] mx-6'>  
             {reviews.map((review,index)=>
                 index === current && 
