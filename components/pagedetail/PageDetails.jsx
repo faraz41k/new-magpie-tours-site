@@ -103,7 +103,7 @@ const PageDetail = ({
                 <div className='list-none'>
                     {Itenary.map((item,ind)=>(
                         <>
-                        <li  key={ind} className='font-poppins text-[30px] md:text-[20px] sm:text-[18px]'> {item}</li>
+                        <li  key={ind} className='font-poppins text-[26px] md:text-[20px] sm:text-[18px]'> {item}</li>
                         <br/>
                         </>
                     ))}
