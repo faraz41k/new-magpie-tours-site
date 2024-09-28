@@ -19,7 +19,7 @@ export const blogPost= {
         type: 'text',
       },
       {
-        name: 'post image',
+        name: 'postimage',
         title: 'Post Image',
         type: 'image',
         options: {
