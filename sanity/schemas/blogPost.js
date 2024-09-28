@@ -9,6 +9,11 @@ export const blogPost= {
         type: 'string',
       },
       {
+        name: 'author',
+        title: 'Author',
+        type: 'string',
+      },
+      {
         name: 'article',
         title: 'Article',
         type: 'text',
