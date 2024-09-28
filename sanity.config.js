@@ -3,6 +3,7 @@ import {deskTool} from 'sanity/desk'
 import tours from './sanity/schemas/tours-schema'
 import { reviewSchema } from './sanity/schemas/review-schema'
 import { bannerSchmema } from './sanity/schemas/banner-schema'
+import { blogPost } from './sanity/schemas/blogPost'
 
 
 const config =defineConfig({
@@ -13,7 +14,7 @@ const config =defineConfig({
     basePath: '/admin',
     useCdn: false,
     plugins: [deskTool()],
-    schema: {types: [tours,reviewSchema,bannerSchmema]}
+    schema: {types: [tours,reviewSchema,bannerSchmema,blogPost]}
 })
 
 
