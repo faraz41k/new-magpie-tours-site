@@ -1524,3 +1524,42 @@ export const  getKalashFestivalPakistan= async ()=> {
 // Blog posts
 
 
+export const  getBlogPosts= async ()=> {
+
+    
+
+    return client.fetch(
+        groq`*[_type == "post" ]{
+            _id,
+            _createdAt,
+            postTitle,
+            slug,
+            url,
+            author,
+            article,
+            postimage,
+            
+        }`
+    )
+}
+
+
+export const  getPost= async (slug)=> {
+
+    
+
+    return client.fetch(
+        groq`*[_type== "post" && slug.current == $slug][0]{
+            _id,
+            _createdAt,
+            postTitle,
+            slug,
+            url,
+            author,
+            article,
+            postimage,
+            
+        }`
+    )
+}
+

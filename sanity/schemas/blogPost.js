@@ -4,7 +4,7 @@ export const blogPost= {
     type: 'document',
     fields: [
       {
-        name: 'title',
+        name: 'postTitle',
         title: 'Post Title',
         type: 'string',
       },
@@ -12,11 +12,17 @@ export const blogPost= {
         name: 'author',
         title: 'Author',
         type: 'string',
-      },
+      }, 
       {
         name: 'article',
         title: 'Article',
         type: 'text',
+      },
+      {
+        name: 'slug',
+        title: 'Slug',
+        type: 'slug',
+        options: {source: 'postTitle'}
       },
       {
         name: 'postimage',
