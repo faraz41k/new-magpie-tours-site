@@ -31,7 +31,7 @@ const FeatureSection =async () => {
               propBoxSizing="unset"
             />
             <CentervilleLink
-              cityName="Ancient & UNESCO Heritage"
+              cityName="UNESCO Heritage"
               propBackgroundImage="url('/Unesco.jpg')"
               href='/AllHeritage'
               propPadding="unset"
@@ -48,7 +48,7 @@ const FeatureSection =async () => {
               objectFit= 'cover'
             />
             <CentervilleLink
-              cityName="Tailored Tours"
+              cityName="Tailored Trips"
               propBackgroundImage="url('/skii.jpg')"
               href='/AllCustomtours'
               propPadding="10px"
