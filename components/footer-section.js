@@ -56,7 +56,7 @@ const FooterSection = () => {
               Landscapes & Traditions
             </Link>
             <Link  href='/' className="[text-decoration:none] font-poppins relative leading-[24px] text-[14px] text-[inherit]">
-              Ancient And UNESCO Heritage
+              UNESCO Heritage
             </Link>
             <Link  href='/' className="[text-decoration:none] font-poppins relative leading-[24px] text-[14px] text-[inherit]">
               Trekking

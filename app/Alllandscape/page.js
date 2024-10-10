@@ -17,14 +17,14 @@ const LandscapeTours = async ()=> {
     <div className=' self-stretch  flex flex-col mb-6'>
       {/* hero */}
       <div className=" ">
-      <div className="hero min-h-[550px] w-full bg-cover bg-center relative" style={{backgroundImage: 'url(/trek.jpg)'}}>
+      <div className="hero min-h-[550px] w-full bg-cover bg-center relative" style={{backgroundImage: 'url(/landBanner.jpg)'}}>
         <div className="hero-overlay  bg-opacity-60 py-5"></div>
           <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md ">
               <div className="min-w-[400px] mx-auto  flex flex-col justify-center items-center py-16  text-center">
-                <h3 className="font-poppins font-bold text-33xl">Landscapes And Traditions</h3>
+                <h3 className="font-poppins font-bold text-33xl">Landscapes</h3>
                 
-                <p className="font-poppins text-[20px]">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <p className="font-poppins text-[20px]">Magpie Tours offers journeys through diverse landscapes, immersing you in the rich cultures and traditions of Pakistan</p>
               </div>
                 
             </div>

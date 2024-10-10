@@ -4,6 +4,7 @@ import React from 'react'
 
 import { client } from "@/sanity/sanity/sanity-utils";
 import imageUrlBuilder from '@sanity/image-url'
+import Link from 'next/link';
 
 const builder = imageUrlBuilder(client)
 
@@ -13,7 +14,9 @@ function urlFor(source) {
 
 const BlogCard = ({name,article,author,image}) => {
   return (
+    <Link href=''>
     <div>
+      
         
         <div className="card bg-base-100 w-96 shadow-xl">
             <figure>
@@ -34,6 +37,7 @@ const BlogCard = ({name,article,author,image}) => {
             </div>
         </div>
     </div>
+</Link>
   )
 }
 
