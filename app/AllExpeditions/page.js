@@ -23,7 +23,7 @@ const Climbing = async ({params})=> {
               <div className="min-w-[400px] mx-auto  flex flex-col justify-center items-center py-16  text-center">
                 <h3 className="font-poppins font-bold text-33xl">Climbing</h3>
                 
-                <p className="font-poppins text-[20px]">Magpie Tours Pakistan guarantees you're accompanied by the most joyous and supportive team during your climb.  .</p>
+                <p className="font-poppins text-[20px]">Magpie Tours Pakistan guarantees you are accompanied by the most joyous and supportive team during your climb.  .</p>
               </div>
                 
             </div>

@@ -23,7 +23,7 @@ const CustomTours = async ({params})=> {
               <div className="min-w-[400px] mx-auto  flex flex-col justify-center items-center py-16  text-center">
                 <h3 className="font-poppins font-bold text-33xl">Trekking </h3>
                 
-                <p className="font-poppins text-[20px]">Trekking in Pakistan with Magpie Tours ensures you're in expert hands.</p>
+                <p className="font-poppins text-[20px]">Trekking in Pakistan with Magpie Tours ensures you are in expert hands.</p>
               </div>
                 
             </div>

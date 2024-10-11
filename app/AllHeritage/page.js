@@ -23,7 +23,7 @@ const Heritage = async ()=> {
               <div className="min-w-[400px] mx-auto  flex flex-col justify-center items-center py-16  text-center">
                 <h3 className="font-poppins font-bold text-33xl">Heritage </h3>
                 
-                <p className="font-poppins text-[20px]">"Book a Magpie Tours adventure to Pakistan's UNESCO World Heritage sites, featuring guided cultural tours and historic landmarks.</p>
+                <p className="font-poppins text-[20px]">"Book a Magpie Tours adventure to Pakistans UNESCO World Heritage sites, featuring guided cultural tours and historic landmarks.</p>
               </div>
                 
             </div>
