@@ -8,12 +8,12 @@ const page = () => {
 
             <div className='text-left py-8'>
                 <p className='text-[40px] font-poppins font-thin leading-[4px] md:text-3xl'>Title of Blog post will be here ....</p>
-                <p className=' px-2 text-sm text-blue-600'>Irfan Karim</p>
+                <p className=' px-2 text-sm text-blue-600 underline'>Irfan Karim</p>
                 <p className='text-[8px] text-black px-2'>11/12/2024</p>
             </div>
             <div className='w-full py-4'>
                 <img src="/girls.jpg" alt="girls"  style={{height:'65vh',objectFit:'cover',alignContent:"center" }}  className='w-full h-[25%]   object-cover rounded-lg '/>
-                <p className='text-[6px] text-gray-400 pt-0 mt-0 italic'>Two yankee girls having a great time in mountains  </p>
+                <p className='text-[6px] text-gray-400 pt-0 mt-0 italic underline'>Two yankee girls having a great time in mountains  </p>
             </div>
 
             <div className=' py-8'>
@@ -24,7 +24,7 @@ const page = () => {
                 <div>
                 <div className='py-4'> 
                     <img src="/lake.jpg" alt="girls" style={{height:'60vh',objectFit:'cover',alignContent:"center" }}  className='w-full h-auto object-cover rounded-lg'/>
-                    <p className='italic'>img desscription here</p>
+                    <p className='italic underline'>img desscription here</p>
                 </div>
                 </div>
 
