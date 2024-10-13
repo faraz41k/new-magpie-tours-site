@@ -250,6 +250,10 @@ const links = [
                     url:'/PtKalashFestival'
                 },
             ]
+    },
+    {
+        title: 'Blog',
+        url: '/Blog',
     }
 
 ]
