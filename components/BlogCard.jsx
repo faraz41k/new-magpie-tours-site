@@ -14,7 +14,7 @@ function urlFor(source) {
 
 const BlogCard = ({name,article,author,image}) => {
   return (
-    <Link href='' className='cursor-pointer'>
+    <Link href='' className='cursor-pointer no-underline'>
     <div>
       
         
