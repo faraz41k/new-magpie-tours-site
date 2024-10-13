@@ -14,7 +14,7 @@ function urlFor(source) {
 
 const BlogCard = ({name,article,author,image}) => {
   return (
-    <Link href=''>
+    <Link href='' className=''>
     <div>
       
         
@@ -26,11 +26,11 @@ const BlogCard = ({name,article,author,image}) => {
                 alt="Post" />
             </figure>
             <div className="card-body">
-                <h3 className="">
+                <h3 className="no-underline">
                 {name}
                 </h3>
-                <div className=" text-gray-500"></div>
-                <p>{author}</p>
+                <div className=" text-gray-500 "></div>
+                <p className='no-underline'>{author}</p>
                 <div className="card-actions justify-end">
                 
                 </div>
