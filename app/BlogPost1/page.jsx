@@ -16,14 +16,14 @@ const page = () => {
                 <p className='text-[6px] text-gray-400 pt-0 mt-0 italic underline'>Two yankee girls having a great time in mountains  </p>
             </div>
 
-            <div className=' py-8'>
-                <div>
+            <div className='mx-auto py-8 w-3/4 '>
+                <div className='w-full'>
                     <p className='text-black text-[16px]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nesciunt eos cumque error sed quas aut nobis deserunt incidunt, deleniti excepturi quaerat quis expedita vel nam. Quo, temporibus laudantium tempore quis saepe iusto, libero error magni in, repellat cupiditate quos ab vel magnam veniam sapiente iure ipsa nemo officiis ad commodi praesentium eveniet? Aliquam, accusamus. Earum, omnis. Porro nobis id iusto natus fugit adipisci quae, assumenda fuga eligendi reiciendis ullam? Quas modi, iusto quae quidem quia ea incidunt nobis minus assumenda aut beatae temporibus voluptates est libero tenetur quisquam, aspernatur reiciendis. Repellendus consequatur harum architecto eaque quaerat. Vero eius autem sint ipsum minus ratione expedita aliquid, molestias nihil enim, impedit nemo ullam laudantium mollitia quidem beatae. Autem voluptate laborum veritatis numquam adipisci velit beatae earum exercitationem consectetur, at blanditiis nobis amet aut officia quia nesciunt. Consectetur aliquid sed nobis? Accusamus porro veniam voluptates laboriosam aut, culpa harum aliquid possimus. Dolor natus facere iste veniam voluptatibus laudantium sed nam doloribus numquam. Ullam quam voluptates minus eligendi voluptate, in blanditiis alias quia cum distinctio eaque architecto, molestiae velit, iste at. In accusantium quaerat velit nam suscipit cupiditate obcaecati cumque, eligendi molestiae ipsam illum voluptas. Culpa quae esse perferendis voluptates maxime obcaecati dolore?</p>
                 </div>
 
                 <div>
-                <div className='py-4'> 
-                    <img src="/lake.jpg" alt="girls" style={{height:'60vh',objectFit:'cover',alignContent:"center" }}  className='w-full h-auto object-cover rounded-lg'/>
+                <div className='py-4 w-full'> 
+                    <img src="/lake.jpg" alt="girls" style={{height:'50vh',width:'70vw',objectFit:'cover',alignContent:"center" }}  className='w-full h-auto object-cover rounded-lg'/>
                     <p className='italic underline'>img desscription here</p>
                 </div>
                 </div>
