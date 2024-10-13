@@ -233,7 +233,7 @@ const links = [
 
     {
             title: 'Partnerships',
-            url: '/CtPartners',
+            url: '#',
             submenu:[
                 {
                     title:'Avventura nel nord PAKISTAN',
@@ -253,7 +253,14 @@ const links = [
     },
     {
         title: 'Blog',
-        url: '/Blog',
+        url: '#',
+        submenu:[
+            {
+                title:'Our Montthly Blog',
+                url:'/'
+            },
+
+        ]
     }
 
 ]
