@@ -4,7 +4,7 @@ import Header from '../components/header'
 import FooterSection from '../components/footer-section'
 import Navbar from '../components/navigation/Navbar'
 import TopBar from '../components/TopBar'
-
+import {} from '@next/third-parties/google'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -17,6 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="GTM-5CCFQZ29" />
         <body className={inter.className}>
           <TopBar/>
           <Navbar/>
