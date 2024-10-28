@@ -290,7 +290,7 @@ const Navbar = () => {
         {/* right */}
         <section className='flex items-center justify-between gap-10 '> 
             {/* navlinks */}
-            <div className='md:hidden sm:hidden flex z-10 items-center gap-4 transition-all'>
+            <div className='md:hidden sm:hidden flex z-10 items-center gap-2 transition-all'>
                 {
                     
                     links.map((link)=>(
