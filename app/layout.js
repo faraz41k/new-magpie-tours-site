@@ -4,7 +4,7 @@ import Header from '../components/header'
 import FooterSection from '../components/footer-section'
 import Navbar from '../components/navigation/Navbar'
 import TopBar from '../components/TopBar'
-import {} from '@next/third-parties/google'
+import {GoogleTagManager} from '@next/third-parties/google'
 
 
 const inter = Inter({ subsets: ['latin'] })
