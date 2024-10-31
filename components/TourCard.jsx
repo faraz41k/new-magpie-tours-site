@@ -25,9 +25,9 @@ const TourCard = ({name,url,image}) => {
                 src={urlFor(image).height(300).width(400).url()}
                 alt="Post" />
             </figure>
-            <div className="card-body pt-2">
+            <div className="card-body pt-2 hover:bg-slate-300">
                 <h3 className="no-underline text-[18px] text-gray-800 font-poppins leading-6 font-medium hover:text-blue-950 hover:underline">
-                {name.slice(0,27)}...
+                {name.slice(0,20)}...
                 </h3>
                 
                 
