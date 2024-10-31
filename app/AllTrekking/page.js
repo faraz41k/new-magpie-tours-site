@@ -1,5 +1,6 @@
 import LinkCardForm from "@/components/link-card-form";
 import { getTrekkingTours } from "../../sanity/sanity/sanity-utils";
+import TourCard from "@/components/TourCard";
 
 
 
@@ -42,23 +43,29 @@ const CustomTours = async ({params})=> {
             <div className="flex-1 shrink-0 flex flex-row flex-wrap items-start justify-center gap-[16px]">
               {
                 data.map((tour,ind)=>(
-                  <LinkCardForm
-                  name={tour.name}
-                  image={tour.cardimage}
-                  price={tour.price}
-                  duration={tour.duration}
-                  url={tour.url}
+                  <TourCard
                   key={ind}
-                  imageDimensions="/property-image@2x.png"
-                  imageDimensionsText="/car@2x.png"
-                  imageDimensionsText2="/bathtub@2x.png"
-                  imageDimensionsText3="/arrowsout@2x.png"
-                  imageDimensionsText4="/ellipse-1@2x.png"
-                  imageDimensionsText5="/sharenetwork@2x.png"
-                  imageDimensionsArray="/heart@2x.png"
-                  imageDimensionsTextArray="/plus@2x.png"
-                  propWidth="350px"
-                />
+                  name={tour.name}
+                  url={tour.url}
+                  image={tour.cardimage}
+                  />
+                //   <LinkCardForm
+                //   name={tour.name}
+                //   image={tour.cardimage}
+                //   price={tour.price}
+                //   duration={tour.duration}
+                //   url={tour.url}
+                //   key={ind}
+                //   imageDimensions="/property-image@2x.png"
+                //   imageDimensionsText="/car@2x.png"
+                //   imageDimensionsText2="/bathtub@2x.png"
+                //   imageDimensionsText3="/arrowsout@2x.png"
+                //   imageDimensionsText4="/ellipse-1@2x.png"
+                //   imageDimensionsText5="/sharenetwork@2x.png"
+                //   imageDimensionsArray="/heart@2x.png"
+                //   imageDimensionsTextArray="/plus@2x.png"
+                //   propWidth="350px"
+                // />
                 ))
               }
               
