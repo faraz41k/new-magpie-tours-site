@@ -143,7 +143,7 @@ const links = [
             },
 
             {
-                title:'Nangma Valley Trek Skardu',
+                title:'Patondas Valley Trek ',
                 url:'/TrekNagmaValley'
             },
 
