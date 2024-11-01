@@ -6,7 +6,7 @@ import PageNav from '@/components/pagedetail/PageNav'
 
 
 
-import { getFairyMeadowsShimshal, getK2Broadpeak, getNagmaValley, getRushLakePassu } from '@/sanity/sanity/sanity-utils'
+import { getFairyMeadowsShimshal, getK2Broadpeak, getPatondasTrek, getRushLakePassu } from '@/sanity/sanity/sanity-utils'
 
 export const metadata = {
   title: 'K2 & Broad Peak Basecamp Trek ',
@@ -24,7 +24,7 @@ const  ProductDetail = async () => {
   const cardImage1= FairyMeadowsShims.cardimage
   const url1 =FairyMeadowsShims.url
 
-  const NagmaValley = await getNagmaValley()
+  const NagmaValley = await getPatondasTrek()
   const NagmaVal = NagmaValley[0]
   const cardName2= NagmaVal.name
   const cardDetail2 = NagmaVal.overview
