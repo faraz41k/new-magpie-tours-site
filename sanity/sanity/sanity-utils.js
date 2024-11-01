@@ -625,12 +625,12 @@ export const  getK2Broadpeak= async ()=> {
     )
 }
 
-export const  getNagmaValley= async ()=> {
+export const  getPatondasTrek= async ()=> {
 
     
 
     return client.fetch(
-        groq`*[slug.current == "nangma-valley-skardu-trekk" ]{
+        groq`*[slug.current == "patondas-valley-trek" ]{
             name,
             category,
             slug,

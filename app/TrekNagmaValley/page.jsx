@@ -6,7 +6,7 @@ import PageNav from '@/components/pagedetail/PageNav'
 
 
 
-import { getNagmaValley, getRushLakePassu, getShishperMeadows,getK2Broadpeak } from '@/sanity/sanity/sanity-utils'
+import { getNagmaValley, getRushLakePassu, getShishperMeadows,getK2Broadpeak, getPatondasTrek } from '@/sanity/sanity/sanity-utils'
 
 
 export const metadata = {
@@ -37,9 +37,9 @@ const  ProductDetail = async () => {
   const cardImage3= RushLakePass.cardimage
   const url3 = RushLakePass.url
 
-  const NagmaValley = await getNagmaValley()
+  const PatondasTrek = await getPatondasTrek()
   
-  const data = NagmaValley[0]
+  const data = PatondasTrek[0]
   const sliderImages = data.Slider_Images;
   console.log(data);
   
