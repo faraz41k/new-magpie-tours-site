@@ -6,7 +6,7 @@ import PageNav from '@/components/pagedetail/PageNav'
 
 
 
-import { getK2Broadpeak, getNagmaValley, getRushLakePassu, getShishperMeadows } from '@/sanity/sanity/sanity-utils'
+import { getK2Broadpeak, getPatondasTrek, getRushLakePassu, getShishperMeadows } from '@/sanity/sanity/sanity-utils'
 
 export const metadata = {
   title: 'Rush Lake Trek & Passu Glacier Hike',
@@ -30,7 +30,7 @@ const  ProductDetail = async () => {
   const cardImage2= K2Broadpk.cardimage
   const url2 = K2Broadpk.url
 
-  const NagmaValley = await getNagmaValley()
+  const NagmaValley = await getPatondasTrek()
   const NagmaVal = NagmaValley[0]
   const cardName3= NagmaVal.name
   const cardDetail3 = NagmaVal.overview

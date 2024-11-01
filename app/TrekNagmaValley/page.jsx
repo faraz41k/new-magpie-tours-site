@@ -6,7 +6,7 @@ import PageNav from '@/components/pagedetail/PageNav'
 
 
 
-import { getNagmaValley, getRushLakePassu, getShishperMeadows,getK2Broadpeak, getPatondasTrek } from '@/sanity/sanity/sanity-utils'
+import { getRushLakePassu, getShishperMeadows,getK2Broadpeak, getPatondasTrek } from '@/sanity/sanity/sanity-utils'
 
 
 export const metadata = {
