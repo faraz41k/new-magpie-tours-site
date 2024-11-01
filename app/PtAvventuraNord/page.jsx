@@ -84,6 +84,12 @@ const  ProductDetail = async () => {
           url1={url1}
           url2={url2}
           url3={url3}
+          langO={true}
+          langIt={true}
+          langMap={true}
+          LangNote={true}
+          langInc={true}
+          langNinc={true}
           />
           
         </div>
