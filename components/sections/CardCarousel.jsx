@@ -49,7 +49,7 @@ const CardContainer = ({
                             </h2>
                             <p>{details1.slice(0,100)}...</p>
                             <div className="card-actions justify-end">
-                              <div className="badge badge-outline">trek</div> 
+                              <div className="badge badge-outline">Trek</div> 
                               <div className="badge badge-outline">walk</div>
                             </div>
                             <Link className href={`/${url1}`}>
