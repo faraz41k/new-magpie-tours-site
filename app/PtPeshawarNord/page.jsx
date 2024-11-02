@@ -87,7 +87,7 @@ const  ProductDetail = async () => {
           langO={true}
           langIt={true}
           langMap={true}
-          LangNote={true}
+          langNote={true}
           langInc={true}
           langNinc={true}
           />
