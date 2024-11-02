@@ -143,8 +143,8 @@ const links = [
             },
 
             {
-                title:'Patondas Valley Trek ',
-                url:'/TrekNagmaValley'
+                title:'Patundas Valley Trek ',
+                url:'/PatundasTrekHunza'
             },
 
             {
