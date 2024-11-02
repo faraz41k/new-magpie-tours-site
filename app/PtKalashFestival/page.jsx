@@ -6,7 +6,7 @@ import PageNav from '@/components/pagedetail/PageNav'
 
 
 
-import { getSkiBarTair, getSkiShopdinPass,getCustomSki,getDeosaiBar, getPeshawarEilNordPakistan, getKalashFestivalPakistan, getAvventuraNelNordPakistan} from '@/sanity/sanity/sanity-utils'
+import {  getPeshawarEilNordPakistan, getKalashFestivalPakistan, getAvventuraNelNordPakistan} from '@/sanity/sanity/sanity-utils'
 import ItaliaFestival from '@/components/ItaliaFestival'
 
 export const metadata = {
