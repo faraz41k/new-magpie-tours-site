@@ -98,10 +98,10 @@ const ItaliaFestival = ({
                 <p className='font-poppins'>
                 Il popolo Kalash`&lsquo;` conosciuto anche come Kalasha`&lsquo;` risiede nel distretto di Chitral`&lsquo;` nella provincia di Khyber`&lsquo;` nelle
                 tre valli di Rumbur`&lsquo;` Brumbret e Birir. Questa comunità minoritaria conta solamente 4000 abitanti. Gli studiosi
-                hanno analizzato le pratiche religiose dei Kalash come una fusione dell'antico induismo e delle tradizioni pre-
-                islamiche. Durante l'anno`&lsquo;` si tengono diversi festival Kalash`&lsquo;` tra cui tre particolarmente popolari tra i visitatori::</p>
+                hanno analizzato le pratiche religiose dei Kalash come una fusione dell`&apos;`antico induismo e delle tradizioni pre-
+                islamiche. Durante l`&apos;`anno`&lsquo;` si tengono diversi festival Kalash`&lsquo;` tra cui tre particolarmente popolari tra i visitatori::</p>
                 <ul className='gap-2 flex flex-col pt-6 pl-2 pb-6'>
-                    <li className='text-gray-black font-poppins font-semibold'>Joshi Spring Festival (13-16 maggio): Questo festival celebra l'avvento della primavera. La gente indossa
+                    <li className='text-gray-black font-poppins font-semibold'>Joshi Spring Festival (13-16 maggio): Questo festival celebra l`&apos;`avvento della primavera. La gente indossa
                     abiti nuovi`&lsquo;` le donne si adornano e le ragazze danzano e cantano sulle colline. Le case vengono addobbate
                     e il latte viene raccolto dalle mucche. Si svolgono rituali speciali per i bambini di un anno e per le loro madri.</li>
                     <li className='text-gray-black font-poppins font-semibold'>
@@ -111,7 +111,7 @@ const ItaliaFestival = ({
                     </li>
                     <li className='text-gray-black font-poppins font-semibold'>
                     Chaumas Festival (15-22 dicembre): È il più grande festival Kalash`&lsquo;` che si tiene per due settimane intorno
-                    al solstizio d'inverno`&lsquo;` segnando la fine dell'anno agricolo con musica`&lsquo;` danze e sacrifici di capre. Questo
+                    al solstizio d`&apos;`inverno`&lsquo;` segnando la fine dell`&apos;`anno agricolo con musica`&lsquo;` danze e sacrifici di capre. Questo
                     evento è dedicato al dio Balimain`&lsquo;` che proviene dalla mitica patria dei Kalash. Per onorare i loro antenati`&lsquo;` si
                     svolgono rituali speciali in cui i ragazzi impersonano gli antichi. La cerimonia principale si tiene presso un
                     albero speciale chiamato Indrunkot`&lsquo;` legato a Indr`&lsquo;` il dio delle mucche e fratello di Balimain.
@@ -136,7 +136,7 @@ const ItaliaFestival = ({
             <div className='px-[60px] flex flex-col flex-wrap max-w-6xl' id='Itinery'>
                 <h1 className='text-[28px] font-semibold pb-1  font-poppins'>Itinerary At Glance The Kalash Chilum Joshi Spring Festival</h1>
                 <h3 className='text-[24px] font-light underline  pb-3 font-poppins'>Itinerario di 14 giorni: Chilum Joshi Festival di Kalash i.e festa di primavera`&lsquo;` 13-16
-                    maggio)</h3>
+                    maggio</h3>
                 <div className='list-none'>
                     <ul className='list-none'>
                       <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 1: Arrivo all`&apos;`aeroporto internazionale di Islamabad.</li>
@@ -207,7 +207,7 @@ const ItaliaFestival = ({
                       <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 5: escursione a Chitral  </li>
                       <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 6: viaggio verso Swat i.e 140 km`&lsquo;` 4 ore e 30 minuti </li>
                       <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 7: pernottamento a Peshawar </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 8: ritorno a Islamabad i.ei.e 2 ore`&lsquo;` escursione pomeridiana </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 8: ritorno a Islamabad i.e 2 ore`&lsquo;` escursione pomeridiana </li>
                       <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 9: check-out dell hotel a mezzogiorno`&lsquo;` escursione pomeridiana a Islamabad`&lsquo;`
                       trasferimento all aeroporto dopo cena.</li>
 
