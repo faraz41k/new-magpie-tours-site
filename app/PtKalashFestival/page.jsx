@@ -7,6 +7,7 @@ import PageNav from '@/components/pagedetail/PageNav'
 
 
 import { getSkiBarTair, getSkiShopdinPass,getCustomSki,getDeosaiBar, getPeshawarEilNordPakistan, getKalashFestivalPakistan, getAvventuraNelNordPakistan} from '@/sanity/sanity/sanity-utils'
+import ItaliaFestival from '@/components/ItaliaFestival'
 
 export const metadata = {
   title: 'Ski Shopdin Pass',
@@ -58,7 +59,7 @@ const  ProductDetail = async () => {
         </div>
 
         <div className=''>
-          <PageDetails 
+          <ItaliaFestival
           overview={data.overview}
           Itenary={data.Itenary}
           services={data.Services_Included}

@@ -630,7 +630,7 @@ export const  getPatondasTrek= async ()=> {
     
 
     return client.fetch(
-        groq`*[slug.current == "patondas-valley-trek" ]{
+        groq`*[slug.current == "patundas-trek-hunza" ]{
             name,
             category,
             slug,

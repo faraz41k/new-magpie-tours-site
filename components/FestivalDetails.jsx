@@ -72,7 +72,7 @@ const FestivalDetail = ({
         }else{
             setFixed(false)
         }
-        window.addEventListener("scroll", FixedSideBar)
+        window.addEventListener("scroll", FixedSideBar) 
     }
 
   return (
