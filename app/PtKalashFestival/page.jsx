@@ -1,50 +1,54 @@
 import React from 'react'
 
 import PageHero from '../../components/pagedetail/PageHero'
-import PageDetails from '../../components/pagedetail/PageDetails'
+
 import PageNav from '@/components/pagedetail/PageNav'
+import FestivalDetail from '@/components/FestivalDetails'
 
 
 
-import {  getPeshawarEilNordPakistan, getKalashFestivalPakistan, getAvventuraNelNordPakistan} from '@/sanity/sanity/sanity-utils'
+import { getHunzaRetreat, getHunzaSkurdu, getKKHSilkRoute, getKalashFestivals } from '@/sanity/sanity/sanity-utils'
 import ItaliaFestival from '@/components/ItaliaFestival'
 
 export const metadata = {
-  title: 'Ski Shopdin Pass',
-  description: "Ski on Shopdin Pass in Shimshal Valley, Hunza with Magpie Tours. Experience thrilling slopes, stunning views, and expert guidance. Book your ski adventure today!"
+  title: 'Kalash Festivals  ',
+  description: "Experience the vibrant Kalash Festival with Magpie Tours in Pakistan.Immerse yourself in the rich cultural heritage, unique traditions, and stunning landscapes of the Kalash Valley. Join us for an unforgettable cultural adventure. Book your Kalash Festival tour today!"
 }
 
 
+
 const  ProductDetail = async () => {
-  const PeshawarEilNord =await getPeshawarEilNordPakistan()
-  const PeshawarNord= PeshawarEilNord[0]
-  const cardName1= PeshawarNord.name
-  const cardDetail1 = PeshawarNord.overview
-  const cardImage1= PeshawarNord.cardimage
-  const url1=PeshawarNord.url
-
-  const AvventuraNelNord = await getAvventuraNelNordPakistan()
-  const Avventura = AvventuraNelNord[0]
-  const cardName2= Avventura.name
-  const cardDetail2 = Avventura.overview
-  const cardImage2= Avventura.cardimage
-  const url2=Avventura.url
-
-  const KalashFestivalPakistan = await getKalashFestivalPakistan()
-  const KalashFestival = KalashFestivalPakistan[0]
-  const cardName3= KalashFestival.name
-  const cardDetail3 = KalashFestival.overview
-  const cardImage3= KalashFestival.cardimage
-  const url3=KalashFestival.url
+  const HunzaRetreat =await getHunzaRetreat()
+  const HunzaRetreatData = HunzaRetreat[0]
+  const cardName1= HunzaRetreatData.name
+  const cardDetail1 = HunzaRetreatData.overview
+  const cardImage1= HunzaRetreatData.cardimage
+  const url1=HunzaRetreat.url
   
 
+  const HunzaSkardu = await getHunzaSkurdu()
+  const HunzaSkuraduData = HunzaSkardu[0]
+  const cardName2= HunzaSkuraduData.name
+  const cardDetail2 = HunzaSkuraduData.overview
+  const cardImage2= HunzaSkuraduData.cardimage
+  const url2=HunzaSkuraduData.url
+
+  const SilkRoute =await getKKHSilkRoute()
+  const SilkRouteData = SilkRoute[0]
+  const cardName3= SilkRouteData.name
+  const cardDetail3 = SilkRouteData.overview
+  const cardImage3= SilkRouteData.cardimage
+  const url3=SilkRouteData.url
+
   
-  const KalashFestivalNord = await getKalashFestivalPakistan()
-  const data = KalashFestivalNord[0]
+
+
+
+  const kalashFestivals = await getKalashFestivals()
+  
+  const data = kalashFestivals[0]
   const sliderImages = data.Slider_Images;
-  
-  
- 
+  console.log(data);
   
   return (
     
@@ -59,46 +63,33 @@ const  ProductDetail = async () => {
         </div>
 
         <div className=''>
-          <ItaliaFestival
-          overview={data.overview}
-          Itenary={data.Itenary}
+          <ItaliaFestival 
+          
           services={data.Services_Included}
           notIncluded ={data.Not_Included}
           notes={data.Notes}
-          map= {data.map} 
-          activity={data.activities}
+          map= {data.map}
           duration={data.duration}
-          guide={data.guide}
           destination={data.destination}
+          guide={data.guide}
+          activities={data.activities}
           calender={data.calender}
-          cardname1 ={cardName1}
-          cardname2 = {cardName2}
-          cardname3= {cardName3}
-          details1={cardDetail1}
-          details2={cardDetail2}
-          details3={cardDetail3}
-          image1={cardImage1}
-          image2={cardImage2}
-          image3={cardImage3}
+          cardName1={cardName1}
+          cardDetail1={cardDetail1}
+          cardImage1={cardImage1}
+          cardName2={cardName2}
+          cardDetail2={cardDetail2}
+          cardImage2={cardImage2}
+          cardName3={cardName3}
+          cardDetail3={cardDetail3}
+          cardImage3={cardImage3}
           price={data.price}
-          url={data.url}
           url1={url1}
           url2={url2}
           url3={url3}
-          langO={true}
-          langIt={true}
-          langMap={true}
-          LangNote={true}
-          langInc={true}
-          langNinc={true}
           />
           
         </div>
-        
-        
-        
-        
-        
     </div>
   )
 }

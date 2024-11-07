@@ -99,7 +99,7 @@ const ItaliaFestival = ({
                 Il popolo Kalash`&lsquo;` conosciuto anche come Kalasha`&lsquo;` risiede nel distretto di Chitral`&lsquo;` nella provincia di Khyber`&lsquo;` nelle
                 tre valli di Rumbur`&lsquo;` Brumbret e Birir. Questa comunità minoritaria conta solamente 4000 abitanti. Gli studiosi
                 hanno analizzato le pratiche religiose dei Kalash come una fusione dell`&apos;`antico induismo e delle tradizioni pre-
-                islamiche. Durante l`&apos;`anno`&lsquo;` si tengono diversi festival Kalash`&lsquo;` tra cui tre particolarmente popolari tra i visitatori::</p>
+                islamiche. Durante l`&apos;`anno&lsquo; si tengono diversi festival Kalash`&lsquo;` tra cui tre particolarmente popolari tra i visitatori::</p>
                 <ul className='gap-2 flex flex-col pt-6 pl-2 pb-6'>
                     <li className='text-gray-black font-poppins font-semibold'>Joshi Spring Festival (13-16 maggio): Questo festival celebra l`&apos;`avvento della primavera. La gente indossa
                     abiti nuovi`&lsquo;` le donne si adornano e le ragazze danzano e cantano sulle colline. Le case vengono addobbate

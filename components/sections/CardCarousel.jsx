@@ -1,5 +1,5 @@
 import React from 'react'
-import SecCard from './SecCard'
+
 
 import { client } from '@/sanity/sanity/sanity-utils';
 import imageUrlBuilder from '@sanity/image-url'
