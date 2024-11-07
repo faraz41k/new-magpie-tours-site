@@ -248,17 +248,17 @@ const ItaliaFestival = ({
                 <h1 className='text-5xl font-semibold pb-3 font-poppins'>Servizi inclusi:</h1>
                 <div className='list-none'>
                 
-                <p key={index} className='font-poppins'><GoDotFill/>Sistemazioni ordinate e pulite in
+                <p  className='font-poppins'><GoDotFill/>Sistemazioni ordinate e pulite in
                     hotel/guest house/rifugi di legno, secondo
                     le disponibilità della regione </p>
-                <p key={index} className='font-poppins'><GoDotFill/>Tutti i trasporti via terra (mini-bus,
+                <p className='font-poppins'><GoDotFill/>Tutti i trasporti via terra (mini-bus,
                     landcruiser/jeep); </p>
-                <p key={index} className='font-poppins'><GoDotFill/>Tutte le sistemazioni per la notte sono a
+                <p  className='font-poppins'><GoDotFill/>Tutte le sistemazioni per la notte sono a
                     due letti, la maggior parte con Wi-Fi e acqua calda, come disponibile nelle zone di montagna </p>
-                <p key={index} className='font-poppins'><GoDotFill/>Guida professionale autorizzata; </p>
-                <p key={index} className='font-poppins'><GoDotFill/>Tre pasti e acqua minerale; </p>
-                <p key={index} className='font-poppins'><GoDotFill/>Biglietti d&apos;ingresso ai siti storici dell&apos;itinerario </p>
-                <p key={index} className='font-poppins'><GoDotFill/>Pedaggi. </p>
+                <p  className='font-poppins'><GoDotFill/>Guida professionale autorizzata; </p>
+                <p  className='font-poppins'><GoDotFill/>Tre pasti e acqua minerale; </p>
+                <p  className='font-poppins'><GoDotFill/>Biglietti d&apos;ingresso ai siti storici dell&apos;itinerario </p>
+                <p  className='font-poppins'><GoDotFill/>Pedaggi. </p>
                 
                 </div>
                 
@@ -269,10 +269,10 @@ const ItaliaFestival = ({
                 <h1 className='text-5xl font-semibold pb-3 font-poppins'>Servizi non inclusi:</h1>
                 <div className='list-none flex flex-col gap-2'>
                 
-                <p key={index} className='font-poppins'><GoDotFill/>Biglietto aereo internazionale </p>
-                <p key={index} className='font-poppins'><GoDotFill/>Assicurazione di viaggio </p>
-                <p key={index} className='font-poppins'><GoDotFill/>Visto pakistano (possiamo fornire assistenza con i documenti necessari per la richiesta) </p>
-                <p key={index} className='font-poppins'><GoDotFill/>Mance per le guide e gli autisti </p>
+                <p  className='font-poppins'><GoDotFill/>Biglietto aereo internazionale </p>
+                <p  className='font-poppins'><GoDotFill/>Assicurazione di viaggio </p>
+                <p  className='font-poppins'><GoDotFill/>Visto pakistano (possiamo fornire assistenza con i documenti necessari per la richiesta) </p>
+                <p  className='font-poppins'><GoDotFill/>Mance per le guide e gli autisti </p>
                 </div>
                 
             </div>
