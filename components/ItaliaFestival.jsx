@@ -222,21 +222,46 @@ const ItaliaFestival = ({
             <div ref={myRef}  className='px-[60px] max-w-6xl' id='Services'>
                 <h1 className='text-5xl font-semibold pb-3 font-poppins'>NOTE</h1>
                 <div className='list-none'>
-                    {services.map((item,index)=>(
-                        <p key={index} className='font-poppins'><GoDotFill/> {item}</p>
-                    ))}
+                    
+                    <p  className='font-poppins'><GoDotFill/>Durante il viaggio, il tempo medio di guida sarà di circa 5 ore, con un massimo di 7 ore al
+                     giorno. È consigliabile prepararsi adeguatamente portando con sé le seguenti attrezzature:
+                     buone scarpe da trekking, una giacca leggera antipioggia e strati di abbigliamento adatti alle
+                     varie condizioni meteorologiche che si incontreranno lungo il percorso. Inoltre, un zaino
+                     resistente sarà utile per trasportare acqua e gli effetti personali, insieme a una borraccia per
+                     mantenere l'idratazione. </p>
+                    <p  className='font-poppins'><GoDotFill/>Le condizioni delle strade in queste regioni montuose possono variare, il che potrebbe causare
+                     ritardi nei tempi di percorrenza. Nel caso di blocco stradale imprevisto che impedisca il
+                     proseguimento del viaggio, ci occuperemo dell&apos;organizzazione dell&apos;alloggio e dei pasti durante
+                     il periodo supplementare. Tuttavia, vi chiederemo di coprire le spese aggiuntive per i giorni
+                     extra. </p>
+                    <p  className='font-poppins'><GoDotFill/>È altamente consigliabile stipulare un&apos;assicurazione sanitaria dal proprio Paese di origine che
+                    copra le spese mediche in caso di emergenza durante il viaggio. </p>
+                    <p  className='font-poppins'><GoDotFill/>Eventuali servizi aggiuntivi non inclusi nell&apos;itinerario o modifiche al programma durante il tour
+                    comporteranno costi aggiuntivi, i quali verranno discussi anticipatamente con la guida. </p>
                     
                     
                 </div>
-                
+                {/* &apos; */}
             </div>
 
             <div   className='px-[60px] max-w-6xl' id='Services'>
                 <h1 className='text-5xl font-semibold pb-3 font-poppins'>Servizi inclusi:</h1>
                 <div className='list-none'>
-                {notIncluded.map((item,index)=>(
-                        <p key={index} className='font-poppins'><GoDotFill/> {item}</p>
-                    ))}
+                
+                <p key={index} className='font-poppins'><GoDotFill/>Sistemazioni ordinate e pulite in
+                    hotel/guest house/rifugi di legno, secondo
+                    le disponibilità della regione; </p>
+                <p key={index} className='font-poppins'><GoDotFill/>Tutti i trasporti via terra (mini-bus,
+                    landcruiser/jeep); </p>
+                <p key={index} className='font-poppins'><GoDotFill/>Tutte le sistemazioni per la notte sono a
+                    due letti, la maggior parte con Wi-Fi e
+                    acqua calda, come disponibile nelle zone
+                    di montagna; </p>
+                <p key={index} className='font-poppins'><GoDotFill/>Guida professionale autorizzata; </p>
+                <p key={index} className='font-poppins'><GoDotFill/>Tre pasti e acqua minerale; </p>
+                <p key={index} className='font-poppins'><GoDotFill/>Biglietti d&apos;ingresso ai siti storici dell&apos;itinerario; </p>
+                <p key={index} className='font-poppins'><GoDotFill/>Pedaggi. </p>
+                
                 </div>
                 
             </div>
@@ -245,9 +270,11 @@ const ItaliaFestival = ({
             <div  className='px-[60px] max-w-6xl' id='Notes'>
                 <h1 className='text-5xl font-semibold pb-3 font-poppins'>Servizi non inclusi:</h1>
                 <div className='list-none flex flex-col gap-2'>
-                {notes.map((item,index)=>(
-                        <p key={index} className='font-poppins'><GoDotFill/> {item}</p>
-                    ))}
+                
+                <p key={index} className='font-poppins'><GoDotFill/>Biglietto aereo internazionale </p>
+                <p key={index} className='font-poppins'><GoDotFill/>Assicurazione di viaggio </p>
+                <p key={index} className='font-poppins'><GoDotFill/>Visto pakistano (possiamo fornire assistenza con i documenti necessari per la richiesta) </p>
+                <p key={index} className='font-poppins'><GoDotFill/>Mance per le guide e gli autisti </p>
                 </div>
                 
             </div>
