@@ -96,37 +96,36 @@ const ItaliaFestival = ({
             <div className='px-[60px] max-w-6xl'>
                 <h1  className='text-5xl font-semibold pb-3 font-poppins' id='Overview'>Overview</h1>
                 <p className='font-poppins'>
-                Il popolo Kalash`&lsquo;` conosciuto anche come Kalasha`&lsquo;` risiede nel distretto di Chitral`&lsquo;` nella provincia di Khyber`&lsquo;` nelle
-                tre valli di Rumbur`&lsquo;` Brumbret e Birir. Questa comunità minoritaria conta solamente 4000 abitanti. Gli studiosi
-                hanno analizzato le pratiche religiose dei Kalash come una fusione dell`&apos;`antico induismo e delle tradizioni pre-
-                islamiche. Durante l`&apos;`anno&lsquo; si tengono diversi festival Kalash`&lsquo;` tra cui tre particolarmente popolari tra i visitatori::</p>
+                    Il popolo Kalash, conosciuto anche come Kalasha, risiede nel distretto di Chitral, nella provincia di Khyber, nelle
+                    tre valli di Rumbur, Brumbret e Birir. Questa comunità minoritaria conta solamente 4000 abitanti. Gli studiosi hanno analizzato le pratiche religiose dei Kalash come una fusione dell'antico induismo e delle tradizioni pre-
+                    islamiche. Durante l'anno, si tengono diversi festival Kalash, tra cui tre particolarmente popolari tra i visitatori:</p>
                 <ul className='gap-2 flex flex-col pt-6 pl-2 pb-6'>
-                    <li className='text-gray-black font-poppins font-semibold'>Joshi Spring Festival (13-16 maggio): Questo festival celebra l`&apos;`avvento della primavera. La gente indossa
-                    abiti nuovi`&lsquo;` le donne si adornano e le ragazze danzano e cantano sulle colline. Le case vengono addobbate
+                    <li className='text-gray-black font-poppins font-semibold'>Joshi Spring Festival (13-16 maggio): Questo festival celebra l&apos;avvento della primavera. La gente indossa
+                    abiti nuovi&lsquo; le donne si adornano e le ragazze danzano e cantano sulle colline. Le case vengono addobbate
                     e il latte viene raccolto dalle mucche. Si svolgono rituali speciali per i bambini di un anno e per le loro madri.</li>
                     <li className='text-gray-black font-poppins font-semibold'>
-                    Uchal Festival (20-21 agosto): Questa festa celebra il raccolto. Le persone indossano abiti tradizionali`&lsquo;`
-                    cantano`&lsquo;` ballano e ringraziano la natura per aver donato orzo e grano. Vengono preparati cibi speciali come
-                    formaggio`&lsquo;` latticello e pane di mais.
+                    Uchal Festival (20-21 agosto): Questa festa celebra il raccolto. Le persone indossano abiti tradizionali&lsquo;
+                    cantano&lsquo; ballano e ringraziano la natura per aver donato orzo e grano. Vengono preparati cibi speciali come
+                    formaggio&lsquo; latticello e pane di mais.
                     </li>
                     <li className='text-gray-black font-poppins font-semibold'>
-                    Chaumas Festival (15-22 dicembre): È il più grande festival Kalash`&lsquo;` che si tiene per due settimane intorno
-                    al solstizio d`&apos;`inverno`&lsquo;` segnando la fine dell`&apos;`anno agricolo con musica`&lsquo;` danze e sacrifici di capre. Questo
-                    evento è dedicato al dio Balimain`&lsquo;` che proviene dalla mitica patria dei Kalash. Per onorare i loro antenati`&lsquo;` si
+                    Chaumas Festival (15-22 dicembre): È il più grande festival Kalash&lsquo; che si tiene per due settimane intorno
+                    al solstizio d&apos;inverno&lsquo; segnando la fine dell&apos;anno agricolo con musica&lsquo; danze e sacrifici di capre. Questo
+                    evento è dedicato al dio Balimain&lsquo; che proviene dalla mitica patria dei Kalash. Per onorare i loro antenati&lsquo; si
                     svolgono rituali speciali in cui i ragazzi impersonano gli antichi. La cerimonia principale si tiene presso un
-                    albero speciale chiamato Indrunkot`&lsquo;` legato a Indr`&lsquo;` il dio delle mucche e fratello di Balimain.
+                    albero speciale chiamato Indrunkot&lsquo; legato a Indr&lsquo; il dio delle mucche e fratello di Balimain.
                     </li>
 
                 </ul>
 
-                <p className='font-poppins'> Questo itinerario vi condurrà da Islamabad a Chitral`&lsquo;` attraverso un suggestivo viaggio panoramico nella valle
-                    dello Swat. Vi immergerete in due giorni di festeggiamenti nella valle dei Kalash`&lsquo;` vivendo esperienze
+                <p className='font-poppins'> Questo itinerario vi condurrà da Islamabad a Chitral&lsquo; attraverso un suggestivo viaggio panoramico nella valle
+                    dello Swat. Vi immergerete in due giorni di festeggiamenti nella valle dei Kalash&lsquo; vivendo esperienze
                     indimenticabili della loro cultura. Seguirà un incantevole e avventuroso viaggio in auto verso Mastuj e il lago
-                    Khalti`&lsquo;` dove potrete ammirare fiumi scintillanti e gustare trote di montagna fresche. La strada proseguirà verso
-                    la mozzafiata valle di Hunza`&lsquo;` dove avrete l`&apos;`opportunità di esplorare i storici forti di Baltit e Altit`&lsquo;` ammirare le
+                    Khalti&lsquo; dove potrete ammirare fiumi scintillanti e gustare trote di montagna fresche. La strada proseguirà verso
+                    la mozzafiata valle di Hunza&lsquo; dove avrete l&apos;opportunità di esplorare i storici forti di Baltit e Altit&lsquo; ammirare le
                     acque color smeraldo del lago Attabad e i maestosi coni di Passu. Godetevi una giornata rilassante dedicata allo
-                    shopping di souvenir nei vicoli di Karimabad`&lsquo;` prima di concludere con una cena speciale a 2700 metri di
-                    altitudine presso il punto panoramico di Duikar. Il viaggio terminerà a Islamabad`&lsquo;` dove potrete esplorare la città`&lsquo;`
+                    shopping di souvenir nei vicoli di Karimabad&lsquo; prima di concludere con una cena speciale a 2700 metri di
+                    altitudine presso il punto panoramico di Duikar. Il viaggio terminerà a Islamabad&lsquo; dove potrete esplorare la città&lsquo;
                     gustare deliziosi piatti e conservare i ricordi dei vibranti festival Kalash e della magnifica bellezza del Pakistan
                     settentrionale.</p>
 
@@ -135,22 +134,22 @@ const ItaliaFestival = ({
             
             <div className='px-[60px] flex flex-col flex-wrap max-w-6xl' id='Itinery'>
                 <h1 className='text-[28px] font-semibold pb-1  font-poppins'>Itinerary At Glance The Kalash Chilum Joshi Spring Festival</h1>
-                <h3 className='text-[24px] font-light underline  pb-3 font-poppins'>Itinerario di 14 giorni: Chilum Joshi Festival di Kalash i.e festa di primavera`&lsquo;` 13-16
+                <h3 className='text-[24px] font-light underline  pb-3 font-poppins'>Itinerario di 14 giorni: Chilum Joshi Festival di Kalash i.e festa di primavera&lsquo; 13-16
                     maggio</h3>
                 <div className='list-none'>
                     <ul className='list-none'>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 1: Arrivo all`&apos;`aeroporto internazionale di Islamabad.</li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 2: viaggio in auto verso Swat i.e 240 km`&lsquo;` 3 ore e 30 minuti </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 3: viaggio in auto fino a Chitral i.e 245 km`&lsquo;` 7 ore  </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 4: 1° giorno di festival i.e 30 km`&lsquo;` 1 ora e 30 minuti `&lsquo;` pernottamento nella valle di Kalash </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 5: 2° giorno di festival i.e 30 km`&lsquo;` 1 ora e 30 minuti `&lsquo;` pernottamento nella valle di Kalash </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 6: trasferimento a Mastuj i.e 145 km`&lsquo;` 5 ore </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 7: viaggio al lago Khalti i.e 140 km`&lsquo;` 4 ore e 30 minuti </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 8: viaggio panoramico in auto tra fiumi e montagne (210 km`&lsquo;` 5 ore) fino alla Valle di Hunza </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 9: Mattina di riposo`&lsquo;` pomeriggio escursione ai forti di Hunza</li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 10: escursione al lago Attabad e all`&apos;`Upper Hunza</li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 11: giornata di relax`&lsquo;` acquisto di souvenir`&lsquo;` esperienza del tramonto e cena speciale a 2700 metri. </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 12: da Hunza a Naran i.e 315 km`&lsquo;` 6 ore e 30 minuti </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 1: Arrivo all&apos;aeroporto internazionale di Islamabad.</li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 2: viaggio in auto verso Swat i.e 240 km&lsquo; 3 ore e 30 minuti </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 3: viaggio in auto fino a Chitral i.e 245 km&lsquo; 7 ore  </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 4: 1° giorno di festival i.e 30 km&lsquo; 1 ora e 30 minuti &lsquo; pernottamento nella valle di Kalash </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 5: 2° giorno di festival i.e 30 km&lsquo; 1 ora e 30 minuti &lsquo; pernottamento nella valle di Kalash </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 6: trasferimento a Mastuj i.e 145 km&lsquo; 5 ore </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 7: viaggio al lago Khalti i.e 140 km&lsquo; 4 ore e 30 minuti </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 8: viaggio panoramico in auto tra fiumi e montagne (210 km&lsquo; 5 ore) fino alla Valle di Hunza </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 9: Mattina di riposo&lsquo; pomeriggio escursione ai forti di Hunza</li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 10: escursione al lago Attabad e all&apos;Upper Hunza</li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 11: giornata di relax&lsquo; acquisto di souvenir&lsquo; esperienza del tramonto e cena speciale a 2700 metri. </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 12: da Hunza a Naran i.e 315 km&lsquo; 6 ore e 30 minuti </li>
                       
                     </ul>
                         
@@ -163,28 +162,28 @@ const ItaliaFestival = ({
 
             <div className='px-[60px] flex flex-col flex-wrap max-w-6xl' id='Itinery'>
                 <h1 className='text-[28px] font-semibold pb-1  font-poppins'>Itinerary At Glance The Uchal Festival </h1>
-                <h3 className='text-[24px] font-light underline  pb-3 font-poppins'>Itinerario di 14 giorni: Uchal Festival i.e festival estivo`&lsquo;` 20-22 agosto </h3>
+                <h3 className='text-[24px] font-light underline  pb-3 font-poppins'>Itinerario di 14 giorni: Uchal Festival i.e festival estivo&lsquo; 20-22 agosto </h3>
                 <div className='list-none'>
                     
                 <ul className='list-none'>
                       <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 1: Arrivo all aeroporto internazionale di Islamabad. </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 2: viaggio in auto verso Swat i.e 240 km`&lsquo;` 3 ore e 30 minuti </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 3: trasferimento a Chitral i.e 245 km`&lsquo;`&lsquo;` 7 ore </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 4: 1° giorno di festival i.e 30 km`&lsquo;` 1 ora e 30 minuti `&lsquo;` pernottamento nella valle
+                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 2: viaggio in auto verso Swat i.e 240 km&lsquo; 3 ore e 30 minuti </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 3: trasferimento a Chitral i.e 245 km&lsquo;&lsquo; 7 ore </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 4: 1° giorno di festival i.e 30 km&lsquo; 1 ora e 30 minuti &lsquo; pernottamento nella valle
                       di Kalash </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 5: 2° giorno di festival i.e 30 km`&lsquo;` 1 ora e 30 minuti `&lsquo;` pernottamento nella valle
+                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 5: 2° giorno di festival i.e 30 km&lsquo; 1 ora e 30 minuti &lsquo; pernottamento nella valle
                       di Kalash </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 6: trasferimento a Mastuj i.e 145 km`&lsquo;` 5 ore  </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 7: viaggio al lago Khalti i.e 140 km`&lsquo;` 4 ore e 30 minuti  </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 8: viaggio panoramico in auto tra fiumi e montagne i.e 210 km`&lsquo;` 5 ore  fino alla
+                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 6: trasferimento a Mastuj i.e 145 km&lsquo; 5 ore  </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 7: viaggio al lago Khalti i.e 140 km&lsquo; 4 ore e 30 minuti  </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 8: viaggio panoramico in auto tra fiumi e montagne i.e 210 km&lsquo; 5 ore  fino alla
                       Valle di Hunza </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 9: Mattina di riposo`&lsquo;` pomeriggio escursione ai forti di Hunza</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 9: Mattina di riposo&lsquo; pomeriggio escursione ai forti di Hunza</li>
                       <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 10: escursione al lago Attabad e all Upper Hunza</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 11: giornata di relax `&lsquo;` acquisto di souvenir `&lsquo;` esperienza del tramonto e cena
+                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 11: giornata di relax &lsquo; acquisto di souvenir &lsquo; esperienza del tramonto e cena
                       speciale a 2700 metri.</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 12: da Hunza a Naran i.e 315 km `&lsquo;` 6 ore e 30 minuti </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 12: da Hunza a Naran i.e 315 km &lsquo; 6 ore e 30 minuti </li>
                       <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 13: arrivo a Islamabad nel pomeriggio i.e 280 km 6 ore  Pernottamento a Islamabad</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 14: check-out dall hotel a metà giornata `&lsquo;` escursione pomeridiana a Islamabad e trasferimento in aeroporto dopo cena.</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 14: check-out dall hotel a metà giornata &lsquo; escursione pomeridiana a Islamabad e trasferimento in aeroporto dopo cena.</li>
                     </ul>
                    
                     
@@ -195,20 +194,20 @@ const ItaliaFestival = ({
 
             <div className='px-[60px] flex flex-col flex-wrap max-w-6xl' id='Itinery'>
                 <h1 className='text-[28px] font-semibold pb-1  font-poppins'>Itinerary At Glance The Choimus Festival</h1>
-                <h3 className='text-[24px] font-light underline  pb-3 font-poppins'>Itinerario di 9 giorni: Kalash Choimus Festival i.e festival invernale`&lsquo;` 15-22 dicembre</h3>
+                <h3 className='text-[24px] font-light underline  pb-3 font-poppins'>Itinerario di 9 giorni: Kalash Choimus Festival i.e festival invernale&lsquo; 15-22 dicembre</h3>
                 <div className='list-none'>
                     
                     <ul className='list-none'>
                       <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 1: Arrivo allaeroporto internazionale di Islamabad.</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 2: viaggio in auto verso Swat i.e 240 km`&lsquo;` 3 ore e 30 minuti</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 3: viaggio in auto fino a Chitral i.e 245 km`&lsquo;` 7 ore</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 4: intera giornata dedicata al festival 30 km`&lsquo;` 1 ora e 30 minuti`&lsquo;`
+                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 2: viaggio in auto verso Swat i.e 240 km&lsquo; 3 ore e 30 minuti</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 3: viaggio in auto fino a Chitral i.e 245 km&lsquo; 7 ore</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 4: intera giornata dedicata al festival 30 km&lsquo; 1 ora e 30 minuti&lsquo;
                       pernottamento nella valle di Kalash </li>
                       <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 5: escursione a Chitral  </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 6: viaggio verso Swat i.e 140 km`&lsquo;` 4 ore e 30 minuti </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 6: viaggio verso Swat i.e 140 km&lsquo; 4 ore e 30 minuti </li>
                       <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 7: pernottamento a Peshawar </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 8: ritorno a Islamabad i.e 2 ore`&lsquo;` escursione pomeridiana </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 9: check-out dell hotel a mezzogiorno`&lsquo;` escursione pomeridiana a Islamabad`&lsquo;`
+                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 8: ritorno a Islamabad i.e 2 ore&lsquo; escursione pomeridiana </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 9: check-out dell hotel a mezzogiorno&lsquo; escursione pomeridiana a Islamabad&lsquo;
                       trasferimento all aeroporto dopo cena.</li>
 
                     </ul>
