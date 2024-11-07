@@ -250,16 +250,14 @@ const ItaliaFestival = ({
                 
                 <p key={index} className='font-poppins'><GoDotFill/>Sistemazioni ordinate e pulite in
                     hotel/guest house/rifugi di legno, secondo
-                    le disponibilità della regione; </p>
+                    le disponibilità della regione </p>
                 <p key={index} className='font-poppins'><GoDotFill/>Tutti i trasporti via terra (mini-bus,
                     landcruiser/jeep); </p>
                 <p key={index} className='font-poppins'><GoDotFill/>Tutte le sistemazioni per la notte sono a
-                    due letti, la maggior parte con Wi-Fi e
-                    acqua calda, come disponibile nelle zone
-                    di montagna; </p>
+                    due letti, la maggior parte con Wi-Fi e acqua calda, come disponibile nelle zone di montagna </p>
                 <p key={index} className='font-poppins'><GoDotFill/>Guida professionale autorizzata; </p>
                 <p key={index} className='font-poppins'><GoDotFill/>Tre pasti e acqua minerale; </p>
-                <p key={index} className='font-poppins'><GoDotFill/>Biglietti d&apos;ingresso ai siti storici dell&apos;itinerario; </p>
+                <p key={index} className='font-poppins'><GoDotFill/>Biglietti d&apos;ingresso ai siti storici dell&apos;itinerario </p>
                 <p key={index} className='font-poppins'><GoDotFill/>Pedaggi. </p>
                 
                 </div>
