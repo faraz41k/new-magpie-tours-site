@@ -94,7 +94,7 @@ const ItaliaFestival = ({
 
         <div  className='  flex flex-col items-start justify-center pt-8 lg:xlg:pt-28 gap-[100px] pb-8' >
             <div className='px-[60px] max-w-6xl'>
-                <h1  className='text-5xl font-semibold pb-3 font-poppins' id='Overview'>Overview</h1>
+                <h1  className='text-5xl font-semibold pb-3 font-poppins' id='Overview'>Riepilogo</h1>
                 <p className='font-poppins'>
                     Il popolo Kalash, conosciuto anche come Kalasha, risiede nel distretto di Chitral, nella provincia di Khyber, nelle
                     tre valli di Rumbur, Brumbret e Birir. Questa comunità minoritaria conta solamente 4000 abitanti. Gli studiosi hanno analizzato le pratiche religiose dei Kalash come una fusione dell&lsquo;antico induismo e delle tradizioni pre-
@@ -133,7 +133,7 @@ const ItaliaFestival = ({
 
             
             <div className='px-[60px] flex flex-col flex-wrap max-w-6xl' id='Itinery'>
-                <h1 className='text-[28px] font-semibold pb-1  font-poppins'>Itinerary At Glance The Kalash Chilum Joshi Spring Festival</h1>
+                <h1 className='text-[28px] font-semibold pb-1  font-poppins'>Itinerario giornaliero</h1>
                 <h3 className='text-[24px] font-light underline  pb-3 font-poppins'>Itinerario di 14 giorni: Chilum Joshi Festival di Kalash i.e festa di primavera&lsquo; 13-16
                     maggio</h3>
                 <div className='list-none'>
@@ -161,7 +161,7 @@ const ItaliaFestival = ({
             </div>
 
             <div className='px-[60px] flex flex-col flex-wrap max-w-6xl' id='Itinery'>
-                <h1 className='text-[28px] font-semibold pb-1  font-poppins'>Itinerary At Glance The Uchal Festival </h1>
+                <h1 className='text-[28px] font-semibold pb-1  font-poppins'>Itinerario giornaliero</h1>
                 <h3 className='text-[24px] font-light underline  pb-3 font-poppins'>Itinerario di 14 giorni: Uchal Festival i.e festival estivo&lsquo; 20-22 agosto </h3>
                 <div className='list-none'>
                     
@@ -193,7 +193,7 @@ const ItaliaFestival = ({
             </div>
 
             <div className='px-[60px] flex flex-col flex-wrap max-w-6xl' id='Itinery'>
-                <h1 className='text-[28px] font-semibold pb-1  font-poppins'>Itinerary At Glance The Choimus Festival</h1>
+                <h1 className='text-[28px] font-semibold pb-1  font-poppins'>Itinerario giornaliero</h1>
                 <h3 className='text-[24px] font-light underline  pb-3 font-poppins'>Itinerario di 9 giorni: Kalash Choimus Festival i.e festival invernale&lsquo; 15-22 dicembre</h3>
                 <div className='list-none'>
                     
@@ -220,7 +220,7 @@ const ItaliaFestival = ({
             
 
             <div ref={myRef}  className='px-[60px] max-w-6xl' id='Services'>
-                <h1 className='text-5xl font-semibold pb-3 font-poppins'>NOTE</h1>
+                <h1 className='text-5xl font-semibold pb-3 font-poppins'>Note per il viaggio</h1>
                 <div className='list-none'>
                     
                     <p  className='font-poppins'><GoDotFill/>Durante il viaggio, il tempo medio di guida sarà di circa 5 ore, con un massimo di 7 ore al
