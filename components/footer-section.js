@@ -8,7 +8,7 @@ import { SiWhatsapp } from "react-icons/si";
 const FooterSection = () => {
   return (
     <div className="self-stretch flex z-100 flex-row items-start justify-start p-[50px] md:self-stretch md:w-auto md:flex-row md:gap-[0px] sm:flex-col bg-black/95">
-      <footer className="flex-1 shrink-0 flex flex-row items-start justify-between text-left text-5xl text-gray-300 font-body-regular-400 md:flex-col md:gap-[50px] sm:flex-col sm:gap-4 sm:flex-[unset] sm:self-stretch">
+      <footer className="flex-1 shrink-0 flex flex-row items-start justify-between text-left text-5xl text-gray-300 font-body-regular-400 md:flex-col gap-8 md:gap-[50px] sm:flex-col sm:gap-8 sm:flex-[unset] sm:self-stretch">
         <div className="mb-10 w-[312px] h-full flex flex-col items-start justify-start gap-[20px] text-center text-primary-500 font-body-regular-600">
           {/* <Link  href='/' className="[text-decoration:none] flex flex-row items-center justify-center gap-[8px] text-[inherit]">
             <Image
@@ -39,8 +39,9 @@ const FooterSection = () => {
             </div>
             
             <div className="relative font-poppins leading-[24px] flex flex-col items-start w-[312px]">
-            <h3 className="text-[16px] font-poppins text-gray-200">Head Office</h3>
-              <p className="text-[14px] font-poppins ">
+              
+            <h3 className="text-[16px] font-poppins text-gray-200 pb-0">Head Office</h3>
+              <p className="text-[14px] font-poppins leading-[22px]">
                 Office Magpie Tours, Apple Garden, Postal code 15600, Near Degree college, college road,
                 Tehsil Aliabad, District Hunza, GB, Pakistan.
               </p>
@@ -49,8 +50,8 @@ const FooterSection = () => {
           </div>
           
         </div>
-        <div className="w-[173px] h-[248px] flex flex-col items-start justify-start gap-[32px] mt-4">
-          <div className="relative leading-[32px] font-poppins font-light text-[18px]">Tours</div>
+        <div className="w-[173px] h-[248px] flex flex-col items-start justify-start gap-[32px]  ">
+          <div className="relative leading-[32px] font-poppins font-light text-[18px] underline">Tours</div>
           <div className="self-stretch h-[184px] flex flex-col items-start justify-start gap-[16px] text-base text-gray-500">
             <Link  href='/' className="[text-decoration:none] font-poppins relative leading-[24px] text-[14px] text-[inherit]">
               Landscapes & Traditions
@@ -70,7 +71,7 @@ const FooterSection = () => {
           </div>
         </div>
         <div className="w-[173px] h-[248px] flex flex-col items-start justify-start gap-[32px]">
-          <div className="relative font-poppins font-light text-[18px]  leading-[32px] ">Company</div>
+          <div className="relative font-poppins font-light text-[18px]  leading-[32px] underline">Company</div>
           <div className="self-stretch flex flex-col items-start justify-start gap-[16px] text-base text-gray-500">
             <Link  href='/About' className="[text-decoration:none] font-poppins relative leading-[24px] text-[14px]  text-[inherit]">
               About Us
@@ -87,7 +88,7 @@ const FooterSection = () => {
           </div>
         </div>
         <div className="w-[203px] h-[168px] flex flex-col items-start justify-start gap-[32px]">
-          <div className="relative font-poppins font-light text-[18px]  leading-[32px]  ">
+          <div className="relative font-poppins font-light text-[18px]  leading-[32px]  underline">
             FAQs
           </div>
           <div className="self-stretch flex flex-col items-start justify-start gap-[16px] text-base text-gray-500">

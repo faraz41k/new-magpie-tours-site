@@ -138,18 +138,18 @@ const ItaliaFestival = ({
                     maggio</h3>
                 <div className='list-none'>
                     <ul className='list-none'>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 1: Arrivo all&apos;aeroporto internazionale di Islamabad.</li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 2: viaggio in auto verso Swat i.e 240 km&lsquo; 3 ore e 30 minuti </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 3: viaggio in auto fino a Chitral i.e 245 km&lsquo; 7 ore  </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 4: 1° giorno di festival i.e 30 km&lsquo; 1 ora e 30 minuti &lsquo; pernottamento nella valle di Kalash </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 5: 2° giorno di festival i.e 30 km&lsquo; 1 ora e 30 minuti &lsquo; pernottamento nella valle di Kalash </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 6: trasferimento a Mastuj i.e 145 km&lsquo; 5 ore </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 7: viaggio al lago Khalti i.e 140 km&lsquo; 4 ore e 30 minuti </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 8: viaggio panoramico in auto tra fiumi e montagne (210 km&lsquo; 5 ore) fino alla Valle di Hunza </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 9: Mattina di riposo&lsquo; pomeriggio escursione ai forti di Hunza</li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 10: escursione al lago Attabad e all&apos;Upper Hunza</li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 11: giornata di relax&lsquo; acquisto di souvenir&lsquo; esperienza del tramonto e cena speciale a 2700 metri. </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Giorno 12: da Hunza a Naran i.e 315 km&lsquo; 6 ore e 30 minuti </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold font-poppins'> Giorno 1: </span> Arrivo all&apos;aeroporto internazionale di Islamabad.</li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold font-poppins'> Giorno 2: </span> viaggio in auto verso Swat i.e 240 km&lsquo; 3 ore e 30 minuti </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold font-poppins'> Giorno 3: </span> viaggio in auto fino a Chitral i.e 245 km&lsquo; 7 ore  </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold font-poppins'> Giorno 4: </span> 1° giorno di festival i.e 30 km&lsquo; 1 ora e 30 minuti &lsquo; pernottamento nella valle di Kalash </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold font-poppins'> Giorno 5: </span> 2° giorno di festival i.e 30 km&lsquo; 1 ora e 30 minuti &lsquo; pernottamento nella valle di Kalash </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold font-poppins'> Giorno 6: </span> trasferimento a Mastuj i.e 145 km&lsquo; 5 ore </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold font-poppins'> Giorno 7: </span> viaggio al lago Khalti i.e 140 km&lsquo; 4 ore e 30 minuti </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold font-poppins'> Giorno 8: </span> viaggio panoramico in auto tra fiumi e montagne (210 km&lsquo; 5 ore) fino alla Valle di Hunza </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold font-poppins'> Giorno 9: </span> Mattina di riposo&lsquo; pomeriggio escursione ai forti di Hunza</li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold font-poppins'> Giorno 10:</span>  escursione al lago Attabad e all&apos;Upper Hunza</li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold font-poppins'> Giorno 11:</span>  giornata di relax&lsquo; acquisto di souvenir&lsquo; esperienza del tramonto e cena speciale a 2700 metri. </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold font-poppins'> Giorno 12:</span>  da Hunza a Naran i.e 315 km&lsquo; 6 ore e 30 minuti </li>
                       
                     </ul>
                         
@@ -166,24 +166,24 @@ const ItaliaFestival = ({
                 <div className='list-none'>
                     
                 <ul className='list-none'>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 1: Arrivo all aeroporto internazionale di Islamabad. </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 2: viaggio in auto verso Swat i.e 240 km&lsquo; 3 ore e 30 minuti </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 3: trasferimento a Chitral i.e 245 km&lsquo;&lsquo; 7 ore </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 4: 1° giorno di festival i.e 30 km&lsquo; 1 ora e 30 minuti &lsquo; pernottamento nella valle
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 1: </span> Arrivo all aeroporto internazionale di Islamabad. </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 2: </span> viaggio in auto verso Swat i.e 240 km&lsquo; 3 ore e 30 minuti </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 3: </span> trasferimento a Chitral i.e 245 km&lsquo;&lsquo; 7 ore </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 4: </span> 1° giorno di festival i.e 30 km&lsquo; 1 ora e 30 minuti &lsquo; pernottamento nella valle
                       di Kalash </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 5: 2° giorno di festival i.e 30 km&lsquo; 1 ora e 30 minuti &lsquo; pernottamento nella valle
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 5: </span> 2° giorno di festival i.e 30 km&lsquo; 1 ora e 30 minuti &lsquo; pernottamento nella valle
                       di Kalash </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 6: trasferimento a Mastuj i.e 145 km&lsquo; 5 ore  </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 7: viaggio al lago Khalti i.e 140 km&lsquo; 4 ore e 30 minuti  </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 8: viaggio panoramico in auto tra fiumi e montagne i.e 210 km&lsquo; 5 ore  fino alla
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 6: </span> trasferimento a Mastuj i.e 145 km&lsquo; 5 ore  </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 7: </span> viaggio al lago Khalti i.e 140 km&lsquo; 4 ore e 30 minuti  </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 8: </span> viaggio panoramico in auto tra fiumi e montagne i.e 210 km&lsquo; 5 ore  fino alla
                       Valle di Hunza </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 9: Mattina di riposo&lsquo; pomeriggio escursione ai forti di Hunza</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 10: escursione al lago Attabad e all Upper Hunza</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 11: giornata di relax &lsquo; acquisto di souvenir &lsquo; esperienza del tramonto e cena
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 9: </span> Mattina di riposo&lsquo; pomeriggio escursione ai forti di Hunza</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 10:</span>  escursione al lago Attabad e all Upper Hunza</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 11:</span>  giornata di relax &lsquo; acquisto di souvenir &lsquo; esperienza del tramonto e cena
                       speciale a 2700 metri.</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 12: da Hunza a Naran i.e 315 km &lsquo; 6 ore e 30 minuti </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 13: arrivo a Islamabad nel pomeriggio i.e 280 km 6 ore  Pernottamento a Islamabad</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 14: check-out dall hotel a metà giornata &lsquo; escursione pomeridiana a Islamabad e trasferimento in aeroporto dopo cena.</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 12:</span>  da Hunza a Naran i.e 315 km &lsquo; 6 ore e 30 minuti </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 13:</span>  arrivo a Islamabad nel pomeriggio i.e 280 km 6 ore  Pernottamento a Islamabad</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 14:</span>  check-out dall hotel a metà giornata &lsquo; escursione pomeridiana a Islamabad e trasferimento in aeroporto dopo cena.</li>
                     </ul>
                    
                     
@@ -198,16 +198,16 @@ const ItaliaFestival = ({
                 <div className='list-none'>
                     
                     <ul className='list-none'>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 1: Arrivo allaeroporto internazionale di Islamabad.</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 2: viaggio in auto verso Swat i.e 240 km&lsquo; 3 ore e 30 minuti</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 3: viaggio in auto fino a Chitral i.e 245 km&lsquo; 7 ore</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 4: intera giornata dedicata al festival 30 km&lsquo; 1 ora e 30 minuti&lsquo;
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 1:</span>  Arrivo allaeroporto internazionale di Islamabad.</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 2:</span> viaggio in auto verso Swat i.e 240 km&lsquo; 3 ore e 30 minuti</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 3:</span> viaggio in auto fino a Chitral i.e 245 km&lsquo; 7 ore</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 4:</span> intera giornata dedicata al festival 30 km&lsquo; 1 ora e 30 minuti&lsquo;
                       pernottamento nella valle di Kalash </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 5: escursione a Chitral  </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 6: viaggio verso Swat i.e 140 km&lsquo; 4 ore e 30 minuti </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 7: pernottamento a Peshawar </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 8: ritorno a Islamabad i.e 2 ore&lsquo; escursione pomeridiana </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Giorno 9: check-out dell hotel a mezzogiorno&lsquo; escursione pomeridiana a Islamabad&lsquo;
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 5:</span> escursione a Chitral  </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 6:</span> viaggio verso Swat i.e 140 km&lsquo; 4 ore e 30 minuti </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 7:</span> pernottamento a Peshawar </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 8:</span> ritorno a Islamabad i.e 2 ore&lsquo; escursione pomeridiana </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold font-poppins'>Giorno 9:</span> check-out dell hotel a mezzogiorno&lsquo; escursione pomeridiana a Islamabad&lsquo;
                       trasferimento all aeroporto dopo cena.</li>
 
                     </ul>
