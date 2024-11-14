@@ -15,7 +15,7 @@ const overviewData = [
 
 const KFestival = [
     {
-        desc: "Itinerario di 14 giorni: Chilum Joshi Festival di Kalash (festa di primavera, 13-16 maggio)",
+        desc: "Itine di 14 giorni: Chilum Joshi Festival di Kalash (festa di primavera, 13-16 maggio)",
         iter: [
                 
         ]
