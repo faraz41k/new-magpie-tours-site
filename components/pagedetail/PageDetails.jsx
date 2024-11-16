@@ -109,7 +109,7 @@ const PageDetail = ({
                 <div className='list-none' >
                     {Itenary.map((item,ind)=>(
                         <>
-                        <li  key={ind} className='font-poppins text-[26px] md:text-[20px] sm:text-[18px]'><span className='font-semibold text-[26px] '>{langIt ? item.substr(0,10) : item.substr(0,7) }</span> {item}</li>
+                        <li  key={ind} className='font-poppins text-[26px] md:text-[20px] sm:text-[18px]'><span className='font-semibold text-[26px] '>{langIt ? item.substr(0,10) : item.substr(0,7) }</span> {langIt ? item.substr(10) : item.substr(7)}</li>
                         <br/>
                         </>
                     ))}
