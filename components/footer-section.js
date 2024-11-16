@@ -34,7 +34,7 @@ const FooterSection = () => {
             </div>
             <div className="relative leading-[24px] font-poppins text-gray-200 py-4">
               
-              <Link  href='info@magpietours.com.pk' className="no-underline text-gray-200">info@magpietours.com.pk</Link>
+              <Link  href='https://mail.google.com/' className="no-underline text-gray-200">info@magpietours.com.pk</Link>
               
             </div>
             

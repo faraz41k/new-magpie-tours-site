@@ -8,7 +8,7 @@ const PageNav = () => {
             <a className='no-underline text-3xl font-poppins font-light text-white hover:text-gray-300' href="#Overview"> Overview</a>
             </button>
             <button className='btn btn-ghost'>
-            <a className='no-underline text-3xl font-poppins font-light text-white hover:text-gray-300' href="#Itinery">Itinery</a>
+            <a className='no-underline text-3xl font-poppins font-light text-white hover:text-gray-300' href="#Itinery">Itinerary </a>
             </button>
             <button className='btn btn-ghost'>
             <a className='no-underline text-3xl font-poppins font-light text-white hover:text-gray-300 scroll-pt-56' href="#Services ">Services</a>
