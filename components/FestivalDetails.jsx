@@ -143,18 +143,19 @@ const FestivalDetail = ({
                 Fixed departure/joining Dates (May 11th each year, arrival to Islamabad airport)</h3>
                 <div className='list-none'>
                     <ul className='list-none'>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Day 1: Arrival at Islamabad airport, hotel transfer </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Day 2: Drive to Swat (255 km, 5hrs), ovenight in Swat</li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Day 3: Drive to kalash (250km, 8hrs), overnight in Kalash Valley </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Day 4: Explore Bumburet and Rumbur, overnight in kalash valley   </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Day 5: Drive to Reshun village (90km, 3hrs 40minutes)  </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Day 6: Drive to Phandar valley (6 hrs and 140km), via shandur national park, overnight phandar  </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Day 7: Drive to Hunza valley (265km, 7hrs and 30minutes) </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Day 8: Half day rest Visits to Baltit and Altit fort   </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Day 9: Excursion of Attabad Lake & upper Hunza, sovenir shopping</li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Day 10: Hunza to Naran drive (315km 6hr & 30 mints)</li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Day 11: Afternoon Islamabad arrival (280 km 6hrs) Overnight Islamabad </li>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '>Day 12: Mid-day hotel checkout, afternoon excursion of Islamabad and airport transfer after</li>
+                        <span className='font-semibold'></span>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold'> Day 1: </span> Arrival at Islamabad airport, hotel transfer </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold'> Day 2: </span> Drive to Swat (255 km, 5hrs), ovenight in Swat</li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold'> Day 3: </span> Drive to kalash (250km, 8hrs), overnight in Kalash Valley </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold'> Day 4: </span> Explore Bumburet and Rumbur, overnight in kalash valley   </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold'> Day 5: </span> Drive to Reshun village (90km, 3hrs 40minutes)  </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold'> Day 6: </span> Drive to Phandar valley (6 hrs and 140km), via shandur national park, overnight phandar  </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold'> Day 7: </span> Drive to Hunza valley (265km, 7hrs and 30minutes) </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold'> Day 8: </span> Half day rest Visits to Baltit and Altit fort   </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold'> Day 9: </span> Excursion of Attabad Lake & upper Hunza, sovenir shopping</li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold'> Day 10:</span>  Hunza to Naran drive (315km 6hr & 30 mints)</li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold'> Day 11:</span>  Afternoon Islamabad arrival (280 km 6hrs) Overnight Islamabad </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold'> Day 12:</span>  Mid-day hotel checkout, afternoon excursion of Islamabad and airport transfer after</li>
                       
                     </ul>
                         
@@ -172,18 +173,18 @@ const FestivalDetail = ({
                 <div className='list-none'>
                     
                 <ul className='list-none'>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 1: Arrival at Islamabad airport, hotel transfer </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 2: Drive to Swat (255 km, 5hrs), ovenight in Swat</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 3: Drive to kalash (250km, 8hrs), overnight in Kalash Valley</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 4: Explore Bumburet and Rumbur, overnight in kalash valley   </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 5: Drive to Reshun village (90km, 3hrs 40minutes)  </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 6: Drive to Phandar valley (6 hrs and 140km), via shandur national park, overnight phandar </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 7: Drive to Hunza valley (265km, 7hrs and 30minutes) </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 8: Half day rest Visits to Baltit and Altit fort   </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 9: Excursion of Attabad Lake & upper Hunza, sovenir shopping</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 10: Hunza to Naran drive (315km 6hr & 30 mints)</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 11: Afternoon Islamabad arrival (280 km 6hrs) Overnight Islamabad </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 12: Mid-day hotel checkout, afternoon excursion of Islamabad and airport transfer after </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 1 : </span> Arrival at Islamabad airport, hotel transfer </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 2 : </span> Drive to Swat (255 km, 5hrs), ovenight in Swat</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 3 : </span> Drive to kalash (250km, 8hrs), overnight in Kalash Valley</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 4 : </span> Explore Bumburet and Rumbur, overnight in kalash valley   </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 5 : </span> Drive to Reshun village (90km, 3hrs 40minutes)  </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 6 : </span> Drive to Phandar valley (6 hrs and 140km), via shandur national park, overnight phandar </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 7 : </span> Drive to Hunza valley (265km, 7hrs and 30minutes) </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 8 : </span> Half day rest Visits to Baltit and Altit fort   </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 9 : </span> Excursion of Attabad Lake & upper Hunza, sovenir shopping</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 1 0:</span>  Hunza to Naran drive (315km 6hr & 30 mints)</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 1 1:</span>  Afternoon Islamabad arrival (280 km 6hrs) Overnight Islamabad </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 1 2:</span>  Mid-day hotel checkout, afternoon excursion of Islamabad and airport transfer after </li>
                       
                     </ul>
                    
@@ -200,15 +201,15 @@ const FestivalDetail = ({
                 <div className='list-none'>
                     
                     <ul className='list-none'>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 1: Arrival at Islamabad airport, hotel transfer</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 2: Drive to Swat (255 km, 5hrs), ovenight in Swat</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 3: Drive to kalash (250km, 8hrs), overnight in Kalash Valley</li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 4: Explore Bumburet and Rumbur, overnight in kalash valley  </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 5: Drive to Chitral (37 km, 2 hrs.), Excursion of Chitral  </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 6: Drive to Swat (250 km, 7hrs), overnight Swat </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 7: Drive to Peshawar (200km, 3hrs), city excursion, Peshawar overnight </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 8: Drive back to Islamabad (2hrs), with historical excursions </li>
-                      <li   className='font-poppins text-[30px] md:text-[20px]'>Day 9: Afternoon excursion of Islamabad city, airport transfer after dinner</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 1:</span>  Arrival at Islamabad airport, hotel transfer</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 2:</span>  Drive to Swat (255 km, 5hrs), ovenight in Swat</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 3:</span>  Drive to kalash (250km, 8hrs), overnight in Kalash Valley</li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 4:</span>  Explore Bumburet and Rumbur, overnight in kalash valley  </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 5:</span>  Drive to Chitral (37 km, 2 hrs.), Excursion of Chitral  </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 6:</span>  Drive to Swat (250 km, 7hrs), overnight Swat </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 7:</span>  Drive to Peshawar (200km, 3hrs), city excursion, Peshawar overnight </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 8:</span>  Drive back to Islamabad (2hrs), with historical excursions </li>
+                      <li   className='font-poppins text-[30px] md:text-[20px]'><span className='font-semibold'>  Day 9:</span>  Afternoon excursion of Islamabad city, airport transfer after dinner</li>
 
                     </ul>
                     
