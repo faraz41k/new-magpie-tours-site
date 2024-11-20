@@ -35,8 +35,8 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="GTM-5CCFQZ29" />
         <body className={inter.className}>
+        <GoogleTagManager gtmId="GTM-5CCFQZ29" />
           <TopBar/>
           <Navbar/>
           
