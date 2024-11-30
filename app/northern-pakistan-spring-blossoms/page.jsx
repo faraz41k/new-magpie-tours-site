@@ -5,15 +5,28 @@ import PageDetails from '../../components/pagedetail/PageDetails'
 import PageNav from '@/components/pagedetail/PageNav'
 
 
+import { getKKHSilkRoute, getNorthBlossom,getChitralGilgit } from '@/sanity/sanity/sanity-utils'
+import { getPeshawarNorth } from '@/sanity/sanity/sanity-utils'
+
+
+
 export const metadata = {
   title: 'Northern Pakistan Blossoms',
   description: "Experience the enchanting blossoms of Skardu and Hunza with Magpie Tours.Join us in March and April to witness cherry, apple, and apricot blossoms in full bloom. Discover the stunning landscapes and vibrant culture of Pakistan on this unforgettable tour. Book your spring adventure today!"
 }
 
 
-import { getKKHSilkRoute, getNorthBlossom,getPeshawarNorth,getChitralGilgit } from '@/sanity/sanity/sanity-utils'
 
-const SilkRoute =await getKKHSilkRoute()
+
+
+  
+
+
+
+const  ProductDetail = async () => {
+
+
+  const SilkRoute =await getKKHSilkRoute()
   const SilkRouteData = SilkRoute[0]
   const cardName1= SilkRouteData.name
   const cardDetail1 = SilkRouteData.overview
@@ -21,7 +34,7 @@ const SilkRoute =await getKKHSilkRoute()
   const url1 = SilkRouteData.url
 
   const PeshawarNorth =await getPeshawarNorth()
-  const PeshawarNorthData = PeshawarNorth[0]
+  const PeshawarNorthData =  PeshawarNorth[0]
   const cardName2= PeshawarNorthData.name
   const cardDetail2 = PeshawarNorthData.overview
   const cardImage2= PeshawarNorthData.cardimage
@@ -34,20 +47,9 @@ const SilkRoute =await getKKHSilkRoute()
   const cardImage3= ChitralGilgitData.cardimage
   const url3 = ChitralGilgitData.url
 
-
-
-
   
-
-
-
-
-
-const  ProductDetail = async () => {
-
+  
   const NorthBlossom = await getNorthBlossom()
-  
-  
   const data = NorthBlossom[0]
   const sliderImages = data.Slider_Images;
   console.log(data);
