@@ -39,7 +39,7 @@ const links = [
 
             {
                 title:'Northern Pakistan Blossoms',
-                url:'/northern-pakistan-spring-blossom'
+                url:'/northern-pakistan-spring-blossoms'
             },
 
             {
