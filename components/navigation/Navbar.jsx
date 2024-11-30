@@ -29,46 +29,46 @@ const links = [
         submenu:[
             {
                 title:'Ultimate Skardu & Hunza',
-                url:'/LsHunzaSkurdu'
+                url:'/ultimate-skardu-and-hunza-valley'
             },
 
             {
                 title:'Heavenly Hunza Valley Retreat',
-                url:'/LsHeavenlyHunza'
+                url:'/heavenly-hunza-retreat'
             },
 
             {
                 title:'Northern Pakistan Blossoms',
-                url:'/LsNorthernBlossom'
+                url:'/northern-pakistan-spring-blossom'
             },
 
             {
                 title:'KKH Silk Route South Bound',
-                url:'/LsKKHSilkRoute'
+                url:'/kkh-silk-route-south-bound'
             },
 
             {
                 title:'Alpine Flora Discovery',
-                url:'/LsAlpineFloraDiscovery'
+                url:'/alpine-flora-discovery'
             },
 
             {
                 title:'Kalash Festivals',
-                url:'/LsKalashFestivals'
+                url:'/kalash-festivals'
             },
             
             {
                 title:'Chitral & Gilgit Road Story',
-                url:'/LsChitral&Gilgit'
+                url:'/chitral-gilgit-road-story'
             },
 
             {
                 title:'Peshawar and Northern Journey',
-                url:'/LsPeshawar&North'
+                url:'/peshawar-and-northern-journey-365-days-a-year'
             },
             {
                 title:'Colors Of The North',
-                url:'/LsColorsOfNorth'
+                url:'/colors-of-the-north'
             },
         ],
     },
@@ -81,17 +81,17 @@ const links = [
         submenu:[
             {
                 title:'Indus Valley Civilization',
-                url:'/IndusCivilization'
+                url:'/indus-valley-civilization'
             },
 
             {
                 title:'History Across Pakistan',
-                url:'/HistoryAcrossPak'
+                url:'/history-across-pakistan'
             },
 
             {
                 title:'Gandharan Civilization',
-                url:'/GandaharaCivilization'
+                url:'/ghandaharan-civilization'
             },
             
         ],
@@ -129,37 +129,37 @@ const links = [
         submenu:[
             {
                 title:'Nangaparbat & Rakaposhi Basecamps Trek',
-                url:'/TrekNangaparbat&Rakaposhi'
+                url:'/nangaparbat-and-rakaposhi-base-camp-trek'
             },
 
             {
                 title:'Fairy Meadows & Shimshal Valley',
-                url:'/TrekFairyMeadows&Shimshal'
+                url:'/fairy-meadows-shimashal-valley'
             },
 
             {
                 title:'K2 & Broad Peak Basecamp Trek',
-                url:'/TrekK2&BroadPeak'
+                url:'/k2-and-broad-peak-basecamp-trek'
             },
 
             {
                 title:'Patundas Valley Trek ',
-                url:'/PatundasTrekHunza'
+                url:'/patundas-trek-hunza'
             },
 
             {
                 title:'Rush Lake Trek & Passu Glacier Hike',
-                url:'/TrekRushLake&Passu'
+                url:'/rush-lake-trek-and-passu-glacier-hike'
             },
 
             {
                 title:'Muchuchishh Basecamp Trek',
-                url:'/TrekMuchuChishBaseCamp'
+                url:'/muchuchishh-base-camp-trek'
             },
             
             {
                 title:'Shishper Meadows Trek & Passu Glacier Hike',
-                url:'/TrekShisper&Passu'
+                url:'/shishper-meadows-trek-and-passu-glacier-hike'
             },
         ],
     },
@@ -170,42 +170,42 @@ const links = [
         submenu:[
             {
                 title:'K-2 Climbing Expedition',
-                url:'/ExpK2'
+                url:'/k-2-climbing-expedition'
             },
 
             {
                 title:'Broad Peak Climbing Expedition',
-                url:'/ExpBroadPeak'
+                url:'/broad-peak-climbing-expedition'
             },
 
             {
                 title:'Nanga Parbat Climbing Expedition',
-                url:'/ExpNangaparbat'
+                url:'/nanga-parbat-climbing-expedition'
             },
             
             {
                 title:'Spantik Peak Climbing Expedition',
-                url:'/ExpSpantik'
+                url:'/spantik-peak-climbing-expedition'
             },
 
             {
                 title:'Muchuchishh Climbing Expedition',
-                url:'/ExpMuchuchish'
+                url:'/muchuchishh-climbing-expedition'
             },
 
             {
                 title:'Sangemar Mar Sar Climbing Expedition',
-                url:'/ExpSangemarmarsar'
+                url:'/sangemarmar-sar-climbing-expedition'
             },
 
             {
                 title:'Kunyang Chishh Climbing Expedition',
-                url:'/ExpkunyangChish'
+                url:'/kunyang-chis-climbing-expedition'
             },
 
             {
                 title:'Koran Koh Climbing Expedition',
-                url:'/ExpKoranKoh'
+                url:'/koran-koh-climbing-expedition'
             },
         ],
     },
@@ -237,17 +237,17 @@ const links = [
             submenu:[
                 {
                     title:'Avventura nel nord PAKISTAN',
-                    url:'/PtAvventuraNord'
+                    url:'/avventura-nel-nord-pakistan'
                 },
     
                 {
                     title:'Peshawar e il nord PAKISTAN',
-                    url:'/PtPeshawarNord'
+                    url:'/peshawar-e-il-nord-pakistan'
                 },
     
                 {
                     title:'Kalash festival PAKISTAN',
-                    url:'/PtKalashFestival'
+                    url:'/kalash-festival-pakistan'
                 },
             ]
     },

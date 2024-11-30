@@ -8,7 +8,7 @@ import Navbar from '../components/navigation/Navbar'
 import TopBar from '../components/TopBar'
 import {GoogleTagManager} from '@next/third-parties/google'
 import { useEffect } from 'react'
-
+ 
 
 const inter = Inter({ subsets: ['latin'] })
 
