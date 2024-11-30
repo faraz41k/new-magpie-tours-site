@@ -35,6 +35,7 @@ const SilkRoute =await getKKHSilkRoute()
   const url3 = ChitralGilgitData.url
 
 
+console.log(cardName1);
 
   
 
