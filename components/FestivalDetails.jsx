@@ -144,7 +144,7 @@ const FestivalDetail = ({
                 <div className='list-none'>
                     <ul className='list-none'>
                         <span className='font-semibold'></span>
-                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold'> Day 1: </span> Arrival at Islamabad airport, hotel transfer </li>
+                      <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold'> Day 1: </span> Arrival at Islamabad airport, hotel transfer. </li>
                       <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold'> Day 2: </span> Drive to Swat (255 km, 5hrs), ovenight in Swat</li>
                       <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold'> Day 3: </span> Drive to kalash (250km, 8hrs), overnight in Kalash Valley </li>
                       <li   className='font-poppins text-[30px]  md:text-[20px] '><span className='font-semibold'> Day 4: </span> Explore Bumburet and Rumbur, overnight in kalash valley   </li>
