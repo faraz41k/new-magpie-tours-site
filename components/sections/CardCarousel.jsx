@@ -35,9 +35,9 @@ const CardContainer = ({
 
 
   return (
-    <div className=' max-w-full overflow-hidden mx-8 scroll-smooth  pb-4'>
+    <div className=' max-w-full overflow-hidden mx-8 scroll-smooth  pb-4 ' >
       {/* card1 */}
-        <div className='flex flex-wrap gap-4  items-start justify-evenly'>
+        <div className='flex flex-wrap gap-4  items-start justify-evenly '>
              <div  className="card w-80 h-[550px] bg-base-100 shadow-xl cursor-pointer hover:shadow-xl ">
                       <figure className='h-[50%] '>
                         <img src={urlFor(image1).url()} alt="tours" className='object-cover  object-center h-full w-full' />

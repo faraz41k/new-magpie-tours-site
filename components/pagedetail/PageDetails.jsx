@@ -118,6 +118,13 @@ const PageDetail = ({
                     
                 
             </div>
+
+            <div className='flex flex-col  justify-start px-[60px]  w-full max-w-6xl  mb-4'>
+                <div className='w-full'>
+                <h3 className='text-5xl font-semibold pb-3 font-poppins'>{langMap ? 'Mappa del tour' : 'Tour Map'}</h3>
+                    <img src={urlFor(map).url()}  className='object-cover w-full '  />
+                </div>
+            </div>
             
 
             <div ref={myRef}  className='px-[60px] max-w-6xl' id='Services'>
@@ -153,16 +160,11 @@ const PageDetail = ({
                 
             </div>
             
-            <div className='flex flex-col  justify-start px-[60px]  w-full max-w-6xl  mb-4'>
-                <div className='w-full'>
-                <h3 className='text-5xl font-semibold pb-3 font-poppins'>{langMap ? 'Mappa del tour' : 'Tour Map'}</h3>
-                    <img src={urlFor(map).url()}  className='object-cover w-full '  />
-                </div>
-            </div>
+            
             
 
-            <div  className='flex items-center justify-center flex-col px-[60px] sm:px-[20px] max-w-6xl '>
-                <div className='font-poppins  text-[30px] font-semibold  py-10 text-center  overflow-hidden'>You May Also Like</div>
+            <div  className='flex items-center justify-center  flex-col px-[60px] sm:px-[20px] max-w-6xl  '>
+                <div className='font-poppins  text-[30px] font-semibold  py-10 text-center  '>You May Also Like</div>
                  <CardContainer
                     cardname1={cardname1}
                     cardname2={cardname2}
@@ -180,7 +182,7 @@ const PageDetail = ({
             </div>
 
             <div  className='w-full'>
-                <h3 className='font-poppins text-[40px] text-stone-900 pb-4'>Submit Your Review</h3>
+                <h3 className='font-poppins text-[40px] text-stone-900 pb-4 md:text-[30px] leading-3'>Submit Your Review</h3>
                 <Review/>
             </div>
 
