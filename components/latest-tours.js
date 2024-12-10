@@ -13,10 +13,10 @@ const LatestTours = () => {
           </div>
         </div>
         <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[40px] text-center text-base text-gray-white">
-          <ImgLink propBackgroundImage="url('/blossom.jpg')"  title='Northern Pakistan Blossom' link="LsNorthernBlossom"/>
-          <ImgLink propBackgroundImage="url('/colors.jpg')" title='Colors Of North'  link="LsColorsOfNorth"/>
-          <ImgLink propBackgroundImage="url('/NangaRaka2.jpg')" title='Nangaparbat Rakaposhi BaseCamp' link="TrekNangaparbat&Rakaposhi"/>
-          <ImgLink propBackgroundImage="url('/BarTair.JPG')" title='Bar-Tair Skii' link="SkiBarTair"/>
+          <ImgLink propBackgroundImage="url('/blossom.jpg')"  title='Northern Pakistan Blossom' link="northern-pakistan-spring-blossoms"/>
+          <ImgLink propBackgroundImage="url('/colors.jpg')" title='Colors Of North'  link="colors-of-the-north"/>
+          <ImgLink propBackgroundImage="url('/NangaRaka2.jpg')" title='Nangaparbat Rakaposhi BaseCamp' link="nangaparbat-and-rakaposhi-base-camp-trek"/>
+          <ImgLink propBackgroundImage="url('/BarTair.JPG')" title='Bar-Tair Skii' link="ski-bar-tair"/>
         </div>
       </div>
       {/* <button className="cursor-pointer [border:none] py-3 px-6 bg-primary-500 rounded flex flex-row items-start justify-start hover:bg-royalblue sm:max-w-full">
