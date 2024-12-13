@@ -257,8 +257,14 @@ const links = [
         submenu:[
             {
                 title:'Our Montthly Blog',
-                url:'/'
+                url:'/Blog'
             },
+
+            {
+                title:'Best Hiking Places in Hunza Valley',
+                url:'/BlogPost1'
+            },
+
 
         ]
     }
