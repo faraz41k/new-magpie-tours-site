@@ -121,7 +121,7 @@ const PageDetail = ({
 
             <div className='flex flex-col  justify-start px-[60px]  w-full max-w-6xl  mb-4'>
                 <div className='w-full'>
-                <h3 className='text-5xl font-semibold pb-3 font-poppins'>{langMap ? 'Mappa del tour' : 'Tour Map'}</h3>
+                <h3 className='text-5xl font-semibold pb-3 font-poppins'>{langMap ? 'Mappa del tour'  : 'Tour Map'}</h3>
                     <img src={urlFor(map).url()}  className='object-cover w-full '  />
                 </div>
             </div>
