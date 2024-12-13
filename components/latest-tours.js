@@ -6,7 +6,7 @@ const LatestTours = () => {
       <div className="self-stretch flex flex-col items-center justify-center gap-[40px] max-w-[95%]">
         <div className="w-[688px] flex flex-col items-center justify-center gap-[24px] max-w-[95%] lg:max-w-[100%] md:self-stretch md:w-auto">
           <div className="self-stretch relative leading-[48px] font-semibold">
-            Popular Tours
+            Popular Tours 
           </div>
           <div className="self-stretch relative text-xl leading-[28px] text-lightslategray">
             
