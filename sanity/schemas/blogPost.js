@@ -32,6 +32,24 @@ export const blogPost= {
           hotspot: true, // Enable image cropping
         },
       },
+
+      {
+        name: 'postimage1',
+        title: 'Post Image1',
+        type: 'image',
+        options: {
+          hotspot: true, // Enable image cropping
+        },
+      },
+
+      {
+        name: 'postimage2',
+        title: 'Post Image2',
+        type: 'image',
+        options: {
+          hotspot: true, // Enable image cropping
+        },
+      },
       
     ],
   }

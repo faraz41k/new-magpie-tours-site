@@ -8,7 +8,9 @@ import ServiceMdel from "../components/ServiceMdel"
 import CompReview from "../components/CompReview"
 import TestimonialContainer from "../components/TestimonialContainer"
 
-import Head from "next/head"
+
+
+
 
 
 export const metadata = {
