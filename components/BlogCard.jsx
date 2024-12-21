@@ -5,6 +5,7 @@ import React from 'react'
 import { client } from "@/sanity/sanity/sanity-utils";
 import imageUrlBuilder from '@sanity/image-url'
 import Link from 'next/link';
+import { blogPost } from '@/sanity/schemas/blogPost';
 
 const builder = imageUrlBuilder(client)
 
@@ -12,9 +13,11 @@ function urlFor(source) {
   return builder.image(source)
 }
 
-const BlogCard = ({name,article,author,image}) => {
+const BlogCard = ({name,article,author,image,slug}) => {
+  const {params} = slug
+  
   return (
-    <Link href='' className='cursor-pointer no-underline'>
+    <Link href='/' className='cursor-pointer no-underline'>
     <div>
       
         

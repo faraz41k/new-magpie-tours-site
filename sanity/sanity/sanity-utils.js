@@ -1558,8 +1558,11 @@ export const  getPost= async (slug)=> {
             author,
             article,
             postimage,
+            postimage1,
+            postimage2
             
-        }`
+        }`,
+        
     )
 }
 

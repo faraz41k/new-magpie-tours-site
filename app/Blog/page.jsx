@@ -1,6 +1,5 @@
 import BlogCard from "@/components/BlogCard";
-import LinkCardForm from "@/components/link-card-form";
-import { getBlogPosts, getLandscape } from "@/sanity/sanity/sanity-utils";
+import { getBlogPosts } from "@/sanity/sanity/sanity-utils";
 
 
 
@@ -53,6 +52,7 @@ const Blog = async ()=> {
                   url={post.url}
                   key={ind}
                   article={post.article}
+                  slug = {post.slug}
                   
                 />
                 ))

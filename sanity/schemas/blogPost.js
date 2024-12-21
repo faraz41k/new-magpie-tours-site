@@ -13,11 +13,7 @@ export const blogPost= {
         title: 'Author',
         type: 'string',
       }, 
-      {
-        name: 'article',
-        title: 'Article',
-        type: 'text',
-      },
+
       {
         name: 'slug',
         title: 'Slug',
@@ -25,14 +21,32 @@ export const blogPost= {
         options: {source: 'postTitle'}
       },
       {
-        name: 'postimage',
-        title: 'Post Image',
+        name: 'intro',
+        title: 'Intro',
+        type: 'text',
+      },
+      
+      {
+        name: 'introImage',
+        title: 'Intro Image',
         type: 'image',
         options: {
           hotspot: true, // Enable image cropping
         },
       },
 
+
+      {
+        name: 'subHeading1',
+        title: 'Sub Heading 1',
+        type: 'text',
+      },
+
+      {
+        name: 'article1',
+        title: 'Article 1',
+        type: 'text',
+      },
       {
         name: 'postimage1',
         title: 'Post Image1',
@@ -43,8 +57,43 @@ export const blogPost= {
       },
 
       {
+        name: 'subHeading2',
+        title: 'Sub Heading 2',
+        type: 'text',
+      },
+
+      {
+        name: 'article2',
+        title: 'Article 2',
+        type: 'text',
+      },
+
+
+      {
         name: 'postimage2',
         title: 'Post Image2',
+        type: 'image',
+        options: {
+          hotspot: true, // Enable image cropping
+        },
+      },
+
+      {
+        name: 'subHeading3',
+        title: 'Sub Heading 3',
+        type: 'text',
+      },
+
+      {
+        name: 'article3',
+        title: 'Article 3',
+        type: 'text',
+      },
+
+
+      {
+        name: 'postimage3',
+        title: 'Post Image3',
         type: 'image',
         options: {
           hotspot: true, // Enable image cropping
