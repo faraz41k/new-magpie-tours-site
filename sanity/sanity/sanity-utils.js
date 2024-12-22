@@ -1537,7 +1537,7 @@ export const  getBlogPosts= async ()=> {
             url,
             author,
             intro,
-            introImage,
+            introimage,
             subHeading1,
             article1,
             postimage1,
