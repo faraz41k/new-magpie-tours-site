@@ -12,7 +12,7 @@ const Blog = async ()=> {
   
  const Posts =await getBlogPosts() 
   const data  = Posts
-  console.log(data.length);
+  
 
   
   return (
@@ -47,11 +47,11 @@ const Blog = async ()=> {
                 data.map((post,ind)=>(
                   <BlogCard
                   name={post.postTitle}
-                  image={post.postimage}
+                  image={post.introImage}
                   author={post.author}
                   url={post.url}
                   key={ind}
-                  article={post.article}
+                  
                   slug = {post.slug}
                   
                 />
