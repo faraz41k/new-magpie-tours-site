@@ -12,6 +12,7 @@ const Blog = async ()=> {
   
  const Posts = await getBlogPosts() 
   const data  = Posts
+  console.log(Posts);
   
 
   
