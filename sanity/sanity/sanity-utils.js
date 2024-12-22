@@ -1558,7 +1558,7 @@ export const  getPost= async (slug)=> {
     
 
     return client.fetch(
-        groq`*[_type== "post" && slug.current == "  "]{
+        groq`*[_type== "post" && slug.current == "k2-climbing-expedition-2025"]{
             _id,
             _createdAt,
             postTitle,
