@@ -1563,7 +1563,7 @@ export const  getPost= async (slug)=> {
             _createdAt,
             postTitle,
             slug,
-            url,
+            url,    
             author,
             intro,
             introImage,
