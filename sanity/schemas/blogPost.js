@@ -26,14 +26,7 @@ export const blogPost= {
         type: 'text',
       },
       
-      {
-        name: 'introimage',
-        title: 'Intro Image',
-        type: 'image',
-        options: {
-          hotspot: true, // Enable image cropping
-        },
-      },
+      
 
 
       {

@@ -48,7 +48,7 @@ const Blog = async ()=> {
                 data.map((post,ind)=>(
                   <BlogCard
                   name={post.postTitle}
-                  image={post.introimage}
+                  image={post.postimage1}
                   author={post.author}
                   url={post.url}
                   key={ind}
