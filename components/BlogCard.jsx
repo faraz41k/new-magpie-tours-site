@@ -5,9 +5,10 @@ import React from 'react'
 import { client } from "@/sanity/sanity/sanity-utils";
 import imageUrlBuilder from '@sanity/image-url'
 import Link from 'next/link';
-import { blogPost } from '@/sanity/schemas/blogPost';
+import { ImageUrlBuilder } from '@sanity/image-url/lib/types/builder';
 
-const builder = imageUrlBuilder(client)
+
+const builder = ImageUrlBuilder(client)
 
 function urlFor(source) {
   return builder.image(source)
