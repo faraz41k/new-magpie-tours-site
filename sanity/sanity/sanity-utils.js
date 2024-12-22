@@ -1536,8 +1536,17 @@ export const  getBlogPosts= async ()=> {
             slug,
             url,
             author,
-            article,
-            postimage,
+            intro,
+            introImage,
+            subHeading1,
+            article1,
+            postimage1,
+            subHeading2,
+            article2,
+            postimage3,
+            subHeading3,
+            article3,
+            postimage3,
             
         }`
     )
@@ -1549,17 +1558,24 @@ export const  getPost= async (slug)=> {
     
 
     return client.fetch(
-        groq`*[_type== "post" && slug.current == $slug][0]{
+        groq`*[_type== "post" && slug.current == "  "]{
             _id,
             _createdAt,
             postTitle,
             slug,
             url,
             author,
-            article,
-            postimage,
+            intro,
+            introImage,
+            subHeading1,
+            article1,
             postimage1,
-            postimage2
+            subHeading2,
+            article2,
+            postimage3,
+            subHeading3,
+            article3,
+            postimage3,
             
         }`,
         

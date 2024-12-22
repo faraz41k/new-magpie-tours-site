@@ -99,6 +99,12 @@ export const blogPost= {
           hotspot: true, // Enable image cropping
         },
       },
+
+      {
+        name: 'url',
+        title: 'URL',
+        type: 'text',
+      },
       
     ],
   }
