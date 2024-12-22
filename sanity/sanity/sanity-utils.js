@@ -1566,7 +1566,7 @@ export const  getPost= async (slug)=> {
             url,    
             author,
             intro,
-            introImage,
+            introimage,
             subHeading1,
             article1,
             postimage1,

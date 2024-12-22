@@ -27,7 +27,7 @@ export const blogPost= {
       },
       
       {
-        name: 'introImage',
+        name: 'introimage',
         title: 'Intro Image',
         type: 'image',
         options: {

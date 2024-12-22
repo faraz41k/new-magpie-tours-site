@@ -10,7 +10,7 @@ import { getBlogPosts } from "@/sanity/sanity/sanity-utils";
 
 const Blog = async ()=> {
   
- const Posts =await getBlogPosts() 
+ const Posts = await getBlogPosts() 
   const data  = Posts
   
 
@@ -51,7 +51,6 @@ const Blog = async ()=> {
                   author={post.author}
                   url={post.url}
                   key={ind}
-                  
                   slug = {post.slug}
                   
                 />
