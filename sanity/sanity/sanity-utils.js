@@ -1557,7 +1557,7 @@ export const  getK2Blog= async ()=> {
     
 
     return client.fetch(
-        groq`*[_type== "post" && slug.current == "k2-climbing-expedition-2025"]{
+        groq`*[ slug.current == "k2-climbing-expedition-2025"]{
             _id,
             _createdAt,
             postTitle,

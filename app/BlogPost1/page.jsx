@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='  px-8 py-10 my-[100px] font-poppins'>
+    <div className='max-container  px-8 py-10 my-[100px] font-poppins'>
         <div className='mx-auto flex flex-col gap-8 py-8'>
             {/* top */}
 

@@ -35,10 +35,10 @@ const page = async () => {
                 <p className='text-[8px] text-black px-2'>{data._createdAt}</p>
             </div>
             <div className='w-full py-4'>
-            <img
+            {/* <img
                 className='object-cover h-3/4'
-                src={urlFor(data.postimage1).url()}
-                alt="Post" />
+                src={urlFor(image1).url()}
+                alt="Post" /> */}
             </div>
 
             <div className='mx-auto py-8 md:w-full w-3/4 '>
