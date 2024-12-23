@@ -19,7 +19,7 @@ const Hero =async () => {
   const banner =BannerData[0].image
   const title = BannerData[0].title
   const desc = BannerData[0].description
-  console.log();
+  
   
   
   // const router = useRouter();

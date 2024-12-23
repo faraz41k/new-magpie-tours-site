@@ -14,11 +14,11 @@ function urlFor(source) {
   return builder.image(source)
 }
 
-const BlogCard = ({name,author,image,}) => {
+const BlogCard = ({name,author,image,url}) => {
   
   
   return (
-    <Link href='/' className='cursor-pointer no-underline'>
+    <Link href={`/${url}`} className='cursor-pointer no-underline'>
     <div>
       
         

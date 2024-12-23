@@ -1537,7 +1537,6 @@ export const  getBlogPosts= async ()=> {
             url,
             author,
             intro,
-            mainimage,
             subHeading1,
             article1,
             postimage1,
@@ -1553,7 +1552,7 @@ export const  getBlogPosts= async ()=> {
 }
 
 
-export const  getPost= async (slug)=> {
+export const  getK2Blog= async ()=> {
 
     
 
@@ -1566,7 +1565,6 @@ export const  getPost= async (slug)=> {
             url,    
             author,
             intro,
-            mainimage,
             subHeading1,
             article1,
             postimage1,
