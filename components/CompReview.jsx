@@ -26,12 +26,12 @@ const CompReview = () => {
             
         </div>
 
-        <div className='p-2 w-1/5'>
+        {/* <div className='p-2 w-1/5'>
             <Link href='https://www.instagram.com/magpietourspakistan?igsh=MWc0bzcxNWhqOGx3Nw%3D%3D&utm_source=qrwww.instagram.com/magpietourspakistan?igsh=MWc0bzcxNWhqOGx3Nw%3D%3D&utm_source=qr' target='_blank'>
             <Image src='/instagram-2.svg' height={70} width={70} alt=''/>
             </Link>
             
-        </div>
+        </div> */}
     </div>
   )
 }
