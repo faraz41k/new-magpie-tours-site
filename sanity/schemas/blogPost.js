@@ -32,7 +32,7 @@ export const blogPost= {
       {
         name: 'subHeading1',
         title: 'Sub Heading 1',
-        type: 'text',
+        type: 'string',
       },
 
       {
@@ -52,7 +52,7 @@ export const blogPost= {
       {
         name: 'subHeading2',
         title: 'Sub Heading 2',
-        type: 'text',
+        type: 'string',
       },
 
       {
@@ -74,7 +74,7 @@ export const blogPost= {
       {
         name: 'subHeading3',
         title: 'Sub Heading 3',
-        type: 'text',
+        type: 'string',
       },
 
       {
@@ -96,7 +96,7 @@ export const blogPost= {
       {
         name: 'url',
         title: 'URL',
-        type: 'text',
+        type: 'string',
       },
       
     ],
