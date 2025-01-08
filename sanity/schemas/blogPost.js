@@ -4,8 +4,8 @@ export const blogPost= {
     type: 'document',
     fields: [
       {
-        name: 'postTitle',
-        title: 'Post Title',
+        name: 'title',
+        title: 'Title',
         type: 'string',
       },
       {
@@ -23,7 +23,7 @@ export const blogPost= {
       {
         name: 'intro',
         title: 'Intro',
-        type: 'text',
+        type: 'string',
       },
       
       
@@ -38,7 +38,7 @@ export const blogPost= {
       {
         name: 'article1',
         title: 'Article 1',
-        type: 'text',
+        type: 'string',
       },
       {
         name: 'postimage1',
@@ -58,7 +58,7 @@ export const blogPost= {
       {
         name: 'article2',
         title: 'Article 2',
-        type: 'text',
+        type: 'string',
       },
 
 
@@ -80,7 +80,7 @@ export const blogPost= {
       {
         name: 'article3',
         title: 'Article 3',
-        type: 'text',
+        type: 'string',
       },
 
 
