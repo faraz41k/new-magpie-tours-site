@@ -37,9 +37,18 @@ const page = async () => {
                 
 
                 <div className='pb-4'>
-                    <h4>{blogData.subHeading1}</h4>
+                    <h4 className='text-[24px]  '>{blogData.subHeading1}</h4>
                     <p>
                     {blogData.article1}
+                    </p>
+                </div>
+
+                
+
+                <div className='pb-4'>
+                    <h4 className='text-[24px]  '>{blogData.subHeading2}</h4>
+                    <p>
+                   {blogData.article2}
                     </p>
                 </div>
 
@@ -49,17 +58,10 @@ const page = async () => {
                     
                 </div>
                 </div>
-
-                <div className='pb-4'>
-                    <h4>{blogData.subHeading2}</h4>
-                    <p>
-                   {blogData.article2}
-                    </p>
-                </div>
                 
 
                 <div className='pb-4'>
-                    <h4>{blogData.subHeading3}</h4>
+                    <h4 className='text-[24px]  '>{blogData.subHeading3}</h4>
                     <p>
                    {blogData.article3}
                     </p>
