@@ -34,12 +34,7 @@ const page = async () => {
                     </p>
                 </div>
 
-                <div>
-                <div className='py-4 w-full '> 
-                    <img src={urlFor(blogData.postimage3).url()} alt="girls" style={{objectFit:'cover',alignContent:"center" }}  className='w-full h-auto object-cover rounded-lg'/>
-                    
-                </div>
-                </div>
+                
 
                 <div className='pb-4'>
                     <h4>{blogData.subHeading1}</h4>
@@ -48,16 +43,20 @@ const page = async () => {
                     </p>
                 </div>
 
+                <div>
+                <div className='py-4 w-full '> 
+                    <img src={urlFor(blogData.postimage2).url()} alt="girls" style={{objectFit:'cover',alignContent:"center" }}  className='w-full h-auto object-cover rounded-lg'/>
+                    
+                </div>
+                </div>
+
                 <div className='pb-4'>
                     <h4>{blogData.subHeading2}</h4>
                     <p>
                    {blogData.article2}
                     </p>
                 </div>
-                <div className='py-4 w-full '> 
-                    <img src={urlFor(blogData.postimage2).url()} alt="girls" style={{objectFit:'cover',alignContent:"center" }}  className='w-full h-auto object-cover rounded-lg'/>
-                    
-                </div>
+                
 
                 <div className='pb-4'>
                     <h4>{blogData.subHeading3}</h4>
@@ -65,7 +64,12 @@ const page = async () => {
                    {blogData.article3}
                     </p>
                 </div>
+                
 
+                <div className='py-4 w-full '> 
+                    <img src={urlFor(blogData.postimage3).url()} alt="girls" style={{objectFit:'cover',alignContent:"center" }}  className='w-full h-auto object-cover rounded-lg'/>
+                    
+                </div>
                 
 
                 
