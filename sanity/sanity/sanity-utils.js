@@ -1557,7 +1557,7 @@ export const  getK2Blog= async ()=> {
     
 
     return client.fetch(
-        groq`*[ slug.current == "k2-climbing-expedition-2025"]{
+        groq`*[ slug.current == "three-steps-for-travelling-to-pakistan-in-2025-with-magpie-tours"]{
             _id,
             _createdAt,
             title,
