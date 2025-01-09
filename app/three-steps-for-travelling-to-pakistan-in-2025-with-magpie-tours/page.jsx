@@ -22,10 +22,7 @@ const page = async () => {
                 <p className=' px-2 text-sm text-blue-600 underline'>{blogData.author}</p>
                 <p className='text-[8px] text-black px-2'>{blogData._createdAt}</p>
             </div>
-            <div className='w-full py-4'>
-                <img src={urlFor(blogData.postimage1).url()} alt="girls"  style={{objectFit:'cover',alignContent:"center" }}  className='w-full h-[25%]   object-cover rounded-lg '/>
-                
-            </div>
+            
 
             <div className='mx-auto py-8 md:w-full w-3/4 '>
                 <div className='w-full pb-5 '>
@@ -41,6 +38,10 @@ const page = async () => {
                     <p>
                     {blogData.article1}
                     </p>
+                </div>
+                <div className='w-full py-4'>
+                    <img src={urlFor(blogData.postimage1).url()} alt="girls"  style={{objectFit:'cover',alignContent:"center" }}  className='w-full h-[25%]   object-cover rounded-lg '/>
+                
                 </div>
 
                 
