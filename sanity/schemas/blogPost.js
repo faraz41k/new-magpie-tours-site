@@ -18,7 +18,7 @@ export const blogPost= {
         name: 'slug',
         title: 'Slug',
         type: 'slug',
-        options: {source: 'postTitle'}
+        options: {source: 'title'}
       },
       {
         name: 'intro',
