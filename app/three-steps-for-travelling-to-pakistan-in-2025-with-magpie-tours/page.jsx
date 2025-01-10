@@ -18,7 +18,7 @@ const page = async () => {
             {/* top */}
 
             <div className='text-left py-8'>
-                <p className='text-[40px] font-poppins font-thin leading-[2px] md:text-3xl'>{blogData.title}</p>
+                <p className='text-[40px] font-semibold font-poppins leading-[2px] md:text-3xl'>{blogData.title}</p>
                 <p className=' px-2 text-sm text-blue-600 underline'>{blogData.author}</p>
                 <p className='text-[8px] text-black px-2'>{blogData._createdAt}</p>
             </div>
