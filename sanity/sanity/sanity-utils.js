@@ -1580,3 +1580,31 @@ export const  getK2Blog= async ()=> {
     )
 }
 
+export const  getTopFiveHikking= async ()=> {
+
+    
+
+    return client.fetch(
+        groq`*[ slug.current == "top-5-best-hiking-places-in-hunza-valley"]{
+            _id,
+            _createdAt,
+            title,
+            slug,
+            url,    
+            author,
+            intro,
+            subHeading1,
+            article1,
+            postimage1,
+            subHeading2,
+            article2,
+            postimage2,
+            subHeading3,
+            article3,
+            postimage3,
+            
+        }`,
+        
+    )
+}
+

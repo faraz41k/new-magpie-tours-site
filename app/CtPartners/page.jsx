@@ -42,7 +42,7 @@ const href4 =p4.url
     <div className=' self-stretch  flex flex-col mb-6'>
       {/* hero */}
       <div className=" ">
-      <div className="hero min-h-[550px] w-full bg-cover bg-center relative" style={{backgroundImage: 'url(/pBanner.JPG)'}}>
+      <div className="hero min-h-[600px] sm:h-[350px] w-full bg-cover bg-center relative" style={{backgroundImage: 'url(/pBanner.JPG)'}}>
         <div className="hero-overlay  bg-opacity-60 py-5"></div>
           <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md ">
