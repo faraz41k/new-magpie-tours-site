@@ -76,3 +76,6 @@ const Skiing = async ()=> {
 };
 
 export default Skiing;
+
+
+// new reload
