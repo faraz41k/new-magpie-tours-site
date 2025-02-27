@@ -36,7 +36,7 @@ const name4 = p4.name
 const href4 =p4.url
 
 
-
+//  the CTpartners 
   
   return (
     <div className=' self-stretch  flex flex-col mb-6'>
