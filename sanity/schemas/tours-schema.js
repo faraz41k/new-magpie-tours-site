@@ -93,27 +93,27 @@ const tours = {
           },
 
           {
-            title: 'Itinerary',
-            name: 'itinerary',
-            type: 'array',
-            of: [
-              {
-                type: 'object',
-                fields: [
-                  {
-                    title: 'Title',
-                    name: 'title',
-                    type: 'string',
-                  },
-                  {
-                    title: 'Description',
-                    name: 'description',
-                    type: 'text', // or 'string' for shorter descriptions
-                  },
-                ],
-              },
-            ],
-          },
+      title: 'Itinerary',
+      name: 'itinerary',
+      type: 'array',
+      of: [
+        {
+          type: 'object',
+          fields: [
+            {
+              title: 'Title',
+              name: 'title',
+              type: 'string',
+            },
+            {
+              title: 'Description',
+              name: 'description',
+              type: 'text', // or 'string' for shorter descriptions
+            },
+          ],
+        },
+      ],
+    },
 
           // services included
           {
