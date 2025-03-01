@@ -93,13 +93,21 @@ const tours = {
           },
 
           {
-            title: 'itenary object ',
-            name: 'ItenaryOject',
-            type: 'array',
-            of: [{type: {
-              title: 'string',
-              desc: 'string'
-            }}]
+            name: 'titleDescription',
+            title: 'Title and Description',
+            type: 'object',
+            fields: [
+              {
+                name: 'title',
+                title: 'Title',
+                type: 'string',
+              },
+              {
+                name: 'description',
+                title: 'Description',
+                type: 'text', // or 'string' for shorter descriptions
+              },
+            ],
           },
 
           // services included
