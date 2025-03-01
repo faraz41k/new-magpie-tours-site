@@ -92,6 +92,16 @@ const tours = {
             of: [{type: 'string'}]
           },
 
+          {
+            title: 'itenary object ',
+            name: 'ItenaryOject',
+            type: 'array',
+            of: [{type: {
+              title: 'string',
+              desc: 'string'
+            }}]
+          },
+
           // services included
           {
             title: 'services',
