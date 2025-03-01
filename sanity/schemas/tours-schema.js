@@ -93,19 +93,24 @@ const tours = {
           },
 
           {
-            name: 'titleDescription',
-            title: 'Title and Description',
-            type: 'object',
-            fields: [
+            title: 'Itinerary',
+            name: 'itinerary',
+            type: 'array',
+            of: [
               {
-                name: 'title',
-                title: 'Title',
-                type: 'string',
-              },
-              {
-                name: 'description',
-                title: 'Description',
-                type: 'text', // or 'string' for shorter descriptions
+                type: 'object',
+                fields: [
+                  {
+                    title: 'Title',
+                    name: 'title',
+                    type: 'string',
+                  },
+                  {
+                    title: 'Description',
+                    name: 'description',
+                    type: 'text', // or 'string' for shorter descriptions
+                  },
+                ],
               },
             ],
           },
