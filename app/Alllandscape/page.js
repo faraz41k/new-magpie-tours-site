@@ -18,7 +18,7 @@ const LandscapeTours = async ()=> {
     <div className=' self-stretch  flex flex-col mb-6'>
       {/* hero */}
       <div className=" ">
-      <div className="hero min-h-[550px] w-full bg-cover bg-center relative" style={{backgroundImage: 'url(/landBanner.jpg)'}}>
+      <div className="hero min-h-[600px] w-full bg-cover bg-center relative" style={{backgroundImage: 'url(/landBanner.jpg)'}}>
         <div className="hero-overlay  bg-opacity-60 py-5"></div>
           <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md ">

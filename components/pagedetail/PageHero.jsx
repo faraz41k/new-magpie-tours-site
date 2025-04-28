@@ -13,7 +13,7 @@ const builder = imageUrlBuilder(client)
 
 function urlFor(source) {
   return builder.image(source)
-}
+}   
 
 
 

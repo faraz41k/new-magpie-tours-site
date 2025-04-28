@@ -46,7 +46,7 @@ const  ProductDetail = async () => {
   
   return (
     
-    <div className=' self-stretch  flex flex-col '>
+    <div className=' self-stretch  flex flex-col '>  
         <div >
           
             <PageHero banner= {data.cardimage} sliderImages ={sliderImages}  name={data.name}/>
